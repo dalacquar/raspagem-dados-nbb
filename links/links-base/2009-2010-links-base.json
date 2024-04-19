@@ -1,0 +1,10 @@
+{
+  "pontos": "https://lnb.com.br/nbb/estatisticas/pontos/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "rebotes": "https://lnb.com.br/nbb/estatisticas/rebotes/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "assistencias": "https://lnb.com.br/nbb/estatisticas/assistencias/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "arremessos": "https://lnb.com.br/nbb/estatisticas/arremessos/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "bolas-recuperadas": "https://lnb.com.br/nbb/estatisticas/bolas-recuperadas/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "tocos": "https://lnb.com.br/nbb/estatisticas/tocos/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "erros": "https://lnb.com.br/nbb/estatisticas/erros/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1",
+  "eficiencia": "https://lnb.com.br/nbb/estatisticas/eficiencia/?aggr=avg&type=teams&suffered_rule=0&season%5B%5D=2&stage%5B%5D=1&round%5B%5D=1"
+}
