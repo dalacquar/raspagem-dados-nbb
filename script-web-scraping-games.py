@@ -23,15 +23,41 @@ def extrair_dados(html_content):
 
     dados = []
 
-    for row in table.find_all("tr"):
-        cells = row.find_all(["th", "td"])
+    if table:
+        for row in table.find_all("tr", {"class": "with-hotel"}):
+            cells = row.find_all("td")
 
-        # Verifica se a linha possui células
-        if cells:
-            row_data = [cell.text.strip() for cell in cells]
-            dados.append(row_data)
+            position = cells[0].text.strip()
+            date_elem = cells[1].find("span")
+            date = date_elem.text.strip() if date_elem else "N/A"
+            time_elem = cells[1].find_all("span")[1]
+            time = time_elem.text.strip() if time_elem else "N/A"
+            home_team_elem = cells[3].find("span", {"class": "team-shortname"})
+            home_team = home_team_elem.text.strip() if home_team_elem else "N/A"
+            home_score_elem = cells[6].find("span", {"class": "home"})
+            home_score = home_score_elem.text.strip() if home_score_elem else "N/A"
+            away_team_elem = cells[7].find("span", {"class": "team-shortname"})
+            away_team = away_team_elem.text.strip() if away_team_elem else "N/A"
+            away_score_elem = cells[6].find("span", {"class": "away"})
+            away_score = away_score_elem.text.strip() if away_score_elem else "N/A"
+            round_number_elem = cells[8].find("span", {"class": "number"})
+            round_number = round_number_elem.text.strip() if round_number_elem else "N/A"
+            phase = cells[9].text.strip()
+            championship = cells[10].text.strip()
+            stadium = cells[11].text.strip()
+
+            # Criar uma string com os dados separados por vírgula
+            dados_row = ','.join([
+                position, date, time, home_team, home_score,
+                away_team, away_score, round_number, phase,
+                championship, stadium
+            ])
+            
+            dados.append(dados_row)
 
     return dados
+
+
 
 def printar_dados(dados):
     if dados is None:
@@ -125,8 +151,6 @@ def main(arquivo_temporada, temporada):
         dados_rodadas = json.load(links_json)
 
     for rodada, links in dados_rodadas.items():
-        cont=0
-        print(f"Rodada: {rodada}")
         for dado, link in links.items():
             print(f"Link: {link}")
             dados = realizar_scrap(link) 
@@ -134,16 +158,18 @@ def main(arquivo_temporada, temporada):
             printar_dados(dados)
             print("\n")
 
-            cont+=1
-
-        nome_arquivo = temporada + "-partidas.csv"
+        nome_arquivo = "/jogos/" + temporada + "/" + temporada + "-partidas.csv"
         escrever_csv(dados, nome_arquivo)
     
     return 0
 
 
 
-arquivos_links = ["./links/links-games/links-games.json"]
+arquivos_links = ["./links/links-games/2008-2009-links-games.json",
+                  "./links/links-games/2009-2010-links-games.json",
+                  "./links/links-games/2010-2011-links-games.json",
+                  "./links/links-games/2011-2012-links-games.json",
+                  "./links/links-games/2012-2013-links-games.json"]
 
 nomes_arquivos =    [   "2008-2009",
                         "2009-2010",
@@ -152,7 +178,7 @@ nomes_arquivos =    [   "2008-2009",
                         "2012-2013"
                     ]
 
-for i in range (5):
+for i in range (1):
     main(arquivos_links[0], nomes_arquivos[i])
 
 
