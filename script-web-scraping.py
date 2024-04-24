@@ -168,6 +168,8 @@ nomes_arquivos =    [   "2008-2009",
                         "2012-2013"
                     ]
 
+# nomes_arquivos = ["2008-2009"]
+# arquivos_links = ["./links/links-prontos/2008-2009-links.json"]
 
 for i in range (5):
     print(arquivos_links[i])
