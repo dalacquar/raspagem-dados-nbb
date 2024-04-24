@@ -24,40 +24,40 @@ def extrair_dados(html_content):
     dados = []
 
     if table:
+        headers = ["Data", "Equipe_Casa", "Pontos_Casa", "Pontos_Visitante", "Equipe_Visitante", "Rodada", "Etapa"]
+        dados.append(','.join(headers))
+
         for row in table.find_all("tr", {"class": "with-hotel"}):
             cells = row.find_all("td")
 
             position = cells[0].text.strip()
-            date_elem = cells[1].find("span")
-            date = date_elem.text.strip() if date_elem else "N/A"
-            time_elem = cells[1].find_all("span")[1]
-            time = time_elem.text.strip() if time_elem else "N/A"
+            date_elems = cells[1].find_all("span")
+            date = date_elems[0].text.strip() if len(date_elems) > 1 else "N/A"
             home_team_elem = cells[3].find("span", {"class": "team-shortname"})
             home_team = home_team_elem.text.strip() if home_team_elem else "N/A"
-            home_score_elem = cells[6].find("span", {"class": "home"})
-            home_score = home_score_elem.text.strip() if home_score_elem else "N/A"
+            
+            # Extrair placar
+            home_score_elems1 = cells[5].find("span", {"class": "home"})
+            home_score = home_score_elems1.text.strip() if len(home_score_elems1) > 0 else "N/A"
+            away_score_elems2 = cells[5].find("span", {"class": "away"})
+            away_score = away_score_elems2.text.strip() if len(away_score_elems2) > 0 else "N/A"
+            
             away_team_elem = cells[7].find("span", {"class": "team-shortname"})
             away_team = away_team_elem.text.strip() if away_team_elem else "N/A"
-            away_score_elem = cells[6].find("span", {"class": "away"})
-            away_score = away_score_elem.text.strip() if away_score_elem else "N/A"
-            round_number_elem = cells[8].find("span", {"class": "number"})
-            round_number = round_number_elem.text.strip() if round_number_elem else "N/A"
-            phase = cells[9].text.strip()
-            championship = cells[10].text.strip()
-            stadium = cells[11].text.strip()
+
+            round_number = cells[9].text.strip()
+            phase = cells[10].text.strip()
+
 
             # Criar uma string com os dados separados por vírgula
             dados_row = ','.join([
-                position, date, time, home_team, home_score,
-                away_team, away_score, round_number, phase,
-                championship, stadium
+                date, home_team, f"{home_score}, {away_score}",
+                away_team, round_number, phase
             ])
             
             dados.append(dados_row)
 
     return dados
-
-
 
 def printar_dados(dados):
     if dados is None:
@@ -69,13 +69,14 @@ def printar_dados(dados):
 
 def escrever_csv(dados, nome_arquivo):
     try:
-        with open("./dados/"+nome_arquivo, 'w', newline='', encoding='utf-8') as file:
+        with open("./dados/"+nome_arquivo, 'w', newline='', encoding='utf-8-sig') as file:
             writer = csv.writer(file)
             for row in dados:
-                writer.writerow(row)
+                writer.writerow(row.split(','))  # Dividir a string por vírgulas e passar como lista de valores
         print(f"Dados salvos com sucesso em '{nome_arquivo}'.")
     except Exception as e:
         print(f"Erro ao escrever arquivo CSV: {e}")
+
 
 def realizar_scrap(url):
     html_content = None
@@ -158,7 +159,7 @@ def main(arquivo_temporada, temporada):
             printar_dados(dados)
             print("\n")
 
-        nome_arquivo = "/jogos/" + temporada + "/" + temporada + "-partidas.csv"
+        nome_arquivo = "jogos/" + temporada + "/" + temporada + "-partidas.csv"
         escrever_csv(dados, nome_arquivo)
     
     return 0

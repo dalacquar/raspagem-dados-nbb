@@ -42,9 +42,9 @@ def printar_dados(dados):
     for row in dados:
         print(row)
 
-def escrever_csv(dados, nome_arquivo):
+def escrever_csv(dados, nome_arquivo, temporada):
     try:
-        with open("./dados/"+nome_arquivo, 'w', newline='', encoding='utf-8') as file:
+        with open("./dados/estatisticas/" + temporada + "/" + nome_arquivo, 'w', newline='', encoding='utf-8-sig') as file:
             writer = csv.writer(file)
             for row in dados:
                 writer.writerow(row)
@@ -148,13 +148,13 @@ def main(arquivo_temporada, temporada):
         printar_dados(dados)
 
         nome_arquivo = temporada + "-" + rodada + ".csv"
-        escrever_csv(dados, nome_arquivo)
+        escrever_csv(dados, nome_arquivo, temporada)
     
     return 0
 
 
 
-arquivos_links =    [     "./links/links-prontos/2008-2009-links.json",
+arquivos_links =    [   "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2009-2010-links.json",
                         "./links/links-prontos/2010-2011-links.json",
                         "./links/links-prontos/2011-2012-links.json",
@@ -167,9 +167,6 @@ nomes_arquivos =    [   "2008-2009",
                         "2011-2012",
                         "2012-2013"
                     ]
-
-# nomes_arquivos = ["2008-2009"]
-# arquivos_links = ["./links/links-prontos/2008-2009-links.json"]
 
 for i in range (5):
     print(arquivos_links[i])
