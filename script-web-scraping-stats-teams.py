@@ -33,7 +33,6 @@ def extrair_dados(html_content):
 
     return dados
 
-
 def printar_dados(dados):
     if dados is None:
         print("Nenhum dado para imprimir.")
@@ -118,51 +117,57 @@ def remover_colunas_duplicadas(dados):
 
     return dados_sem_duplicatas
 
-def main(arquivo_temporada, temporada):
-
+def main(arquivo_temporada, temporada, isTesting):
     dados = []
+
+    flag_classificacao = 0
 
     with open(arquivo_temporada, 'r') as links_json:
         dados_rodadas = json.load(links_json)
 
     for rodada, links in dados_rodadas.items():
-        cont=0
+        cont = 0
         print(f"Rodada: {rodada}")
         for dado, link in links.items():
             print(f"Link: {link}")
-            if(cont == 0):
-                dados = realizar_scrap(link) 
-
-            if(cont != 0):
-                dados_aux = realizar_scrap(link)
+            if cont == 0:
+                if(isTesting):
+                    dados = [['Equipe', 'JO', 'Min', 'Pts', '3P', '2P', 'LL']]
+                else:
+                    dados = realizar_scrap(link) 
+            if cont != 0:
+                if(isTesting):
+                    dados_aux = [['Equipe', 'JO', 'Min', 'Pts', '3P', '2P', 'LL']]
+                else:
+                    dados_aux = realizar_scrap(link)
                 dados = concatenar_dados(dados, dados_aux)
-                
                 print("Printando dados concatenados: \n")
                 printar_dados(dados)
                 print("\n")
-
-            cont+=1
+            cont += 1
             
         dados = remover_colunas_duplicadas(dados)
         print("Removendo dados duplicados:\n")
         printar_dados(dados)
 
-        # Determinar a etapa com base no número da rodada
         rodada_num = int(rodada.split('-')[-1])
-        if 1 <= rodada_num <= 15:
+        if ( 1 <= rodada_num <= 15 ) and (flag_classificacao == 0):
             etapa = 1
         elif 16 <= rodada_num <= 30:
             etapa = 2
+            rodada_num -= 15
+            flag_classificacao = 1
         else:
             fase_map = {
-                "oitavas": "03",
-                "quartas": "04",
-                "semifinais": "05",
-                "finais": "06"
+                "oitavas": 3,
+                "quartas": 4,
+                "semifinais": 5,
+                "finais": 6
             }
             etapa = fase_map.get(rodada.split('-')[0], "N/A")
+            rodada_num = int(rodada.split('-')[1])
 
-        nome_arquivo = f"{temporada}-{rodada_num:02d}-{etapa:02d}.csv"
+        nome_arquivo = f"{temporada}-{etapa:02d}-{rodada_num:02d}.csv"
         escrever_csv(dados, nome_arquivo, temporada)
     
     return 0
@@ -183,6 +188,7 @@ nomes_arquivos = [
     "2012-2013"
 ]
 
-for i in range(5):
+for i in range(1):
+    isTesting = False
     print(arquivos_links[i])
-    main(arquivos_links[i], nomes_arquivos[i])
+    main(arquivos_links[i], nomes_arquivos[i], isTesting)
