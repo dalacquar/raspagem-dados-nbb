@@ -30,29 +30,47 @@ def extrair_dados(html_content):
         for row in table.find_all("tr", {"class": "with-hotel"}):
             cells = row.find_all("td")
 
-            position = cells[0].text.strip()
             date_elems = cells[1].find_all("span")
             date = date_elems[0].text.strip() if len(date_elems) > 1 else "N/A"
             home_team_elem = cells[3].find("span", {"class": "team-shortname"})
             home_team = home_team_elem.text.strip() if home_team_elem else "N/A"
             
             # Extrair placar
-            home_score_elems1 = cells[5].find("span", {"class": "home"})
-            home_score = home_score_elems1.text.strip() if len(home_score_elems1) > 0 else "N/A"
-            away_score_elems2 = cells[5].find("span", {"class": "away"})
-            away_score = away_score_elems2.text.strip() if len(away_score_elems2) > 0 else "N/A"
+            home_score_elem = cells[5].find("span", {"class": "home"})
+            home_score = home_score_elem.text.strip() if home_score_elem else "N/A"
+            away_score_elem = cells[5].find("span", {"class": "away"})
+            away_score = away_score_elem.text.strip() if away_score_elem else "N/A"
             
             away_team_elem = cells[7].find("span", {"class": "team-shortname"})
             away_team = away_team_elem.text.strip() if away_team_elem else "N/A"
 
-            round_number = cells[9].text.strip()
-            phase = cells[10].text.strip()
+            raw_round_number = cells[9].text.strip()
+            round_number = ''.join(filter(str.isdigit, raw_round_number))
+            round_number_int = int(round_number) if round_number.isdigit() else 0
 
+            # Ajustar o número da rodada para rodadas a partir de 16
+            if round_number_int >= 16:
+                adjusted_round_number = str(round_number_int - 15)
+            else:
+                adjusted_round_number = round_number
+            
+            phase_text = cells[10].text.strip().lower()
+            
+            # Mapeamento das fases para números
+            phase_map = {
+                "1º turno": "1",
+                "2º turno": "2",
+                "oitavas": "3",
+                "quartas": "4",
+                "semi": "5",
+                "final": "6"
+            }
+            
+            phase = phase_map.get(phase_text, "N/A")
 
             # Criar uma string com os dados separados por vírgula
             dados_row = ','.join([
-                date, home_team, f"{home_score}, {away_score}",
-                away_team, round_number, phase
+                date, home_team, home_score, away_score, away_team, adjusted_round_number, phase
             ])
             
             dados.append(dados_row)
@@ -76,7 +94,6 @@ def escrever_csv(dados, nome_arquivo):
         print(f"Dados salvos com sucesso em '{nome_arquivo}'.")
     except Exception as e:
         print(f"Erro ao escrever arquivo CSV: {e}")
-
 
 def realizar_scrap(url):
     html_content = None
@@ -164,8 +181,6 @@ def main(arquivo_temporada, temporada):
     
     return 0
 
-
-
 arquivos_links = ["./links/links-games/2008-2009-links-games.json",
                   "./links/links-games/2009-2010-links-games.json",
                   "./links/links-games/2010-2011-links-games.json",
@@ -179,8 +194,5 @@ nomes_arquivos =    [   "2008-2009",
                         "2012-2013"
                     ]
 
-for i in range (1):
+for i in range (5):
     main(arquivos_links[0], nomes_arquivos[i])
-
-
-
