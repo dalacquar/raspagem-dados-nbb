@@ -147,30 +147,42 @@ def main(arquivo_temporada, temporada):
         print("Removendo dados duplicados:\n")
         printar_dados(dados)
 
-        nome_arquivo = temporada + "-" + rodada + ".csv"
+        # Determinar a etapa com base no número da rodada
+        rodada_num = int(rodada.split('-')[-1])
+        if 1 <= rodada_num <= 15:
+            etapa = 1
+        elif 16 <= rodada_num <= 30:
+            etapa = 2
+        else:
+            fase_map = {
+                "oitavas": "03",
+                "quartas": "04",
+                "semifinais": "05",
+                "finais": "06"
+            }
+            etapa = fase_map.get(rodada.split('-')[0], "N/A")
+
+        nome_arquivo = f"{temporada}-{rodada_num:02d}-{etapa:02d}.csv"
         escrever_csv(dados, nome_arquivo, temporada)
     
     return 0
 
+arquivos_links = [
+    "./links/links-prontos/2008-2009-links.json",
+    "./links/links-prontos/2009-2010-links.json",
+    "./links/links-prontos/2010-2011-links.json",
+    "./links/links-prontos/2011-2012-links.json",
+    "./links/links-prontos/2012-2013-links.json"
+]
 
+nomes_arquivos = [
+    "2008-2009",
+    "2009-2010",
+    "2010-2011",
+    "2011-2012",
+    "2012-2013"
+]
 
-arquivos_links =    [   "./links/links-prontos/2008-2009-links.json",
-                        "./links/links-prontos/2009-2010-links.json",
-                        "./links/links-prontos/2010-2011-links.json",
-                        "./links/links-prontos/2011-2012-links.json",
-                        "./links/links-prontos/2012-2013-links.json"
-                    ]
-
-nomes_arquivos =    [   "2008-2009",
-                        "2009-2010",
-                        "2010-2011",
-                        "2011-2012",
-                        "2012-2013"
-                    ]
-
-for i in range (5):
+for i in range(5):
     print(arquivos_links[i])
     main(arquivos_links[i], nomes_arquivos[i])
-
-
-
