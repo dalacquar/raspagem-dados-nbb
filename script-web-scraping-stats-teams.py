@@ -188,7 +188,7 @@ nomes_arquivos = [
     "2012-2013"
 ]
 
-for i in range(1):
+for i in range(5):
     isTesting = False
     print(arquivos_links[i])
     main(arquivos_links[i], nomes_arquivos[i], isTesting)
