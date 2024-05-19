@@ -1,23 +1,27 @@
 import pandas as pd
 import os
 
+team_name_mapping = {
+    'São José': ['São José', 'Coop/São José Basketball'],
+    'Franca': ['Franca', 'Sesi Franca'],
+    'Bauru': ['Bauru', 'Bauru Basket'],
+}
+
 
 def ler_estatisticas(estatisticas_file, equipe):
     if os.path.isfile(estatisticas_file):
         estatisticas_df = pd.read_csv(estatisticas_file)
         
-        # Encontrar as estatísticas da equipe especificada
-        equipe_stats = estatisticas_df[estatisticas_df['Equipe'] == equipe]
+        possible_names = team_name_mapping.get(equipe, [equipe])
+        for name in possible_names:
+            equipe_stats = estatisticas_df[estatisticas_df['Equipe'] == name]
+            if not equipe_stats.empty:
+                stats_dict = equipe_stats.iloc[0].to_dict()
+                stats_dict.pop('Equipe', None)
+                return stats_dict
         
-        if not equipe_stats.empty:
-            # Converter a linha para um dicionário e retornar
-            stats_dict = equipe_stats.iloc[0].to_dict()
-            # Remover a chave 'Equipe' do dicionário
-            stats_dict.pop('Equipe', None)
-            return stats_dict
-        else:
-            print(f"Estatísticas não encontradas para a equipe {equipe} no arquivo {estatisticas_file}")
-            return None
+        print(f"Estatísticas não encontradas para a equipe {equipe} no arquivo {estatisticas_file}")
+        return None
     else:
         print(f"Arquivo de estatísticas não encontrado: {estatisticas_file}")
         return None
@@ -27,7 +31,6 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
 
     combined_rows = []
 
-    # Iterar sobre cada linha do arquivo de partidas
     for index, partida in partidas_df.iterrows():
         data = partida['Data']
         equipe_casa = partida['Equipe_Casa']
@@ -37,13 +40,9 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
         rodada = partida['Rodada']
         etapa = partida['Etapa']
 
-        # Construir o nome do arquivo de estatísticas
         estatisticas_file = f"{estatisticas_dir}/{temporada}-{etapa:02d}-{rodada:02d}.csv"
-        
-        # Ler estatísticas para equipe da casa
+
         casa_stats = ler_estatisticas(estatisticas_file, equipe_casa)
-        
-        # Ler estatísticas para equipe visitante
         visitante_stats = ler_estatisticas(estatisticas_file, equipe_visitante)
 
         if casa_stats is not None and visitante_stats is not None:
