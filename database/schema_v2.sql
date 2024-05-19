@@ -51,9 +51,9 @@ CREATE TABLE IF NOT EXISTS `mydb`.`jogos` (
   `estatisticas_casa` JSON NULL,
   `estatisticas_visitantes` JSON NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_jogos_temporada_idx` (`ano` ASC) VISIBLE,
-  INDEX `fk_jogos_equipe1_idx` (`equipe_casa` ASC) VISIBLE,
-  INDEX `fk_jogos_equipe2_idx` (`equipe_visitante` ASC) VISIBLE,
+  INDEX `fk_jogos_temporada_idx` (`ano` ASC),
+  INDEX `fk_jogos_equipe1_idx` (`equipe_casa` ASC),
+  INDEX `fk_jogos_equipe2_idx` (`equipe_visitante` ASC),
   CONSTRAINT `fk_jogos_temporada`
     FOREIGN KEY (`ano`)
     REFERENCES `mydb`.`temporada` (`ano`)

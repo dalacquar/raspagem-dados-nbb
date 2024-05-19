@@ -1,5 +1,0 @@
-Trocar as chaves primarias de time e temporada
-
-Trazer as estatisticas para dentro dos jogos como json - para ficar mais conciso.
-
-Finalizar a coleta de estatisticas.
