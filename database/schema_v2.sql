@@ -39,7 +39,7 @@ ENGINE = InnoDB;
 -- Table `mydb`.`jogos`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`jogos` (
-  `id` INT NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `placar_casa` INT NULL,
   `placar_visitante` INT NULL,
   `data` DATETIME NULL,

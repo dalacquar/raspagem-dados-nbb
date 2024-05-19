@@ -55,18 +55,18 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
 
     return combined_rows
 
+def salvar_em_json(df, output_path):
+    df.to_json(output_path, orient='records', indent=4, force_ascii=False)
+
 def main (partidas_path, estatisticas_dir, temporada):
     dados_combinados = ler_dados(partidas_path, estatisticas_dir, temporada)
     df_combinado = pd.DataFrame(dados_combinados)
 
     output_path = './dados/resultados/2008-2009-combined.json'
 
-    def salvar_em_json(df, output_path):
-        df.to_json(output_path, orient='records', indent=4)
-
     salvar_em_json(df_combinado, output_path)
 
-partidas_path = './dados/jogos/2009-2010/2009-2010-partidas.csv'
+partidas_path = './dados/jogos/2008-2009/2008-2009-partidas.csv'
 estatisticas_dir = './dados/estatisticas/2008-2009'
 temporada = '2008-2009'
 
