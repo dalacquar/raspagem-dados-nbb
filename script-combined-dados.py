@@ -39,7 +39,7 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
         equipe_visitante = partida['Equipe_Visitante']
         rodada = partida['Rodada']
         etapa = partida['Etapa']
-
+    
         estatisticas_file = f"{estatisticas_dir}/{temporada}-{etapa:02d}-{rodada:02d}.csv"
 
         casa_stats = ler_estatisticas(estatisticas_file, equipe_casa)
@@ -58,17 +58,37 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
 def salvar_em_json(df, output_path):
     df.to_json(output_path, orient='records', indent=4, force_ascii=False)
 
-def main (partidas_path, estatisticas_dir, temporada):
+def main (partidas_path, estatisticas_dir, temporada, output_path):
     dados_combinados = ler_dados(partidas_path, estatisticas_dir, temporada)
     df_combinado = pd.DataFrame(dados_combinados)
 
-    output_path = './dados/resultados/2008-2009-combined.json'
-
     salvar_em_json(df_combinado, output_path)
 
-partidas_path = './dados/jogos/2008-2009/2008-2009-partidas.csv'
-estatisticas_dir = './dados/estatisticas/2008-2009'
-temporada = '2008-2009'
+partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
+                  "./dados/jogos/2009-2010/2009-2010-partidas.csv",
+                  "./dados/jogos/2010-2011/2010-2011-partidas.csv",
+                  "./dados/jogos/2011-2012/2011-2012-partidas.csv",
+                  "./dados/jogos/2012-2013/2012-2013-partidas.csv"]
 
-main(partidas_path, estatisticas_dir, temporada)
+estatisticas_dirs = ["./dados/estatisticas/2008-2009",
+                     "./dados/estatisticas/2009-2010",
+                     "./dados/estatisticas/2010-2011",
+                     "./dados/estatisticas/2011-2012",
+                     "./dados/estatisticas/2012-2013",]
+
+temporadas = ["2008-2009",
+              "2009-2010",
+              "2010-2011",
+              "2011-2012",
+              "2012-2013"]
+
+output_paths = ['./dados/resultados/2008-2009-combined.json',
+                './dados/resultados/2009-2010-combined.json',
+                './dados/resultados/2010-2011-combined.json',
+                './dados/resultados/2011-2012-combined.json',
+                './dados/resultados/2012-2013-combined.json'
+                ]
+
+for i in range (2):
+    main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])
 

@@ -195,4 +195,4 @@ nomes_arquivos =    [   "2008-2009",
                     ]
 
 for i in range (5):
-    main(arquivos_links[0], nomes_arquivos[i])
+    main(arquivos_links[i], nomes_arquivos[i])
