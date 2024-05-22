@@ -10,6 +10,12 @@ db_config = {
     'raise_on_warnings': True
 }
 
+team_name_mapping = {
+    'São José': 'Coop/São José Basketball',
+    'Franca': 'Sesi Franca',
+    'Bauru': 'Bauru Basket',
+}
+
 def convert_date(date_str):
     return datetime.strptime(date_str, '%d/%m/%Y')
 
@@ -17,17 +23,8 @@ def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def insert_teams_to_db(teams, db_config):
-    connection = mysql.connector.connect(**db_config)
-    cursor = connection.cursor()
-    for team in teams:
-        try:
-            cursor.execute("INSERT INTO equipe (equipe) VALUES (%s)", (team,))
-        except mysql.connector.Error as err:
-            print(f"Error: {err}")
-    connection.commit()
-    cursor.close()
-    connection.close()
+def map_team_name(team_name):
+    return team_name_mapping.get(team_name, team_name)
 
 def insert_data(data, temporada):
     connection = mysql.connector.connect(**db_config)
@@ -38,6 +35,8 @@ def insert_data(data, temporada):
                     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
         
         for i, jogo in enumerate(data, start=1):
+            equipe_casa = map_team_name(jogo["Equipe_Casa"])
+            equipe_visitante = map_team_name(jogo["Equipe_Visitante"])
             data_jogo = (
                 jogo["Pontos_Casa"],
                 jogo["Pontos_Visitante"],
@@ -45,8 +44,8 @@ def insert_data(data, temporada):
                 jogo["Rodada"],
                 jogo["Etapa"],
                 temporada,
-                jogo["Equipe_Casa"],
-                jogo["Equipe_Visitante"],
+                equipe_casa,
+                equipe_visitante,
                 json.dumps(jogo["casa_estatisticas"]),
                 json.dumps(jogo["visitante_estatisticas"])
             )
