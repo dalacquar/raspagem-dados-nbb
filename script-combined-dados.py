@@ -65,7 +65,7 @@ def main (partidas_path, estatisticas_dir, temporada, output_path):
     salvar_em_json(df_combinado, output_path)
 
 partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
-                  "./dados/jogos/2009-2010/2009-2010-partidas.csv",
+                  "./dados/jogos/2009-2010/2009-2010-partidas-atualizado.csv",
                   "./dados/jogos/2010-2011/2010-2011-partidas.csv",
                   "./dados/jogos/2011-2012/2011-2012-partidas.csv",
                   "./dados/jogos/2012-2013/2012-2013-partidas.csv"]

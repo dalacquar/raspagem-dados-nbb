@@ -49,8 +49,8 @@ def extrair_dados(html_content):
             round_number_int = int(round_number) if round_number.isdigit() else 0
 
             # Ajustar o número da rodada para rodadas a partir de 16
-            if round_number_int >= 16:
-                adjusted_round_number = str(round_number_int - 15)
+            if round_number_int >= 15:
+                adjusted_round_number = str(round_number_int - 14)
             else:
                 adjusted_round_number = round_number
             
@@ -194,5 +194,5 @@ nomes_arquivos =    [   "2008-2009",
                         "2012-2013"
                     ]
 
-for i in range (5):
-    main(arquivos_links[i], nomes_arquivos[i])
+#for i in range (5):
+main(arquivos_links[1], nomes_arquivos[1])
