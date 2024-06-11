@@ -1,20 +1,5 @@
 import json
 
-links_base =    [       "./links/links-base/2008-2009-links-base.json",
-                        "./links/links-base/2009-2010-links-base.json",
-                        "./links/links-base/2010-2011-links-base.json",
-                        "./links/links-base/2011-2012-links-base.json",
-                        "./links/links-base/2012-2013-links-base.json"
-                    ]
-
-
-links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
-                        "./links/links-prontos/2009-2010-links.json",
-                        "./links/links-prontos/2010-2011-links.json",
-                        "./links/links-prontos/2011-2012-links.json",
-                        "./links/links-prontos/2012-2013-links.json"
-                    ]
-
 def script_links (arq_base, arq_saida):
     # Carregar os links base do arquivo JSON
     with open(arq_base, 'r') as file:
@@ -26,7 +11,7 @@ def script_links (arq_base, arq_saida):
     cont_rodada = 1
     for stage in range(1, 7):
         if (stage <= 2):
-            for rodada in range(1, 16):
+            for rodada in range(1, 15):
                 rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
                 rodada_data = {}
 
@@ -61,5 +46,20 @@ def script_links (arq_base, arq_saida):
     with open(arq_saida, 'w') as file:
         json.dump(new_data, file, indent=2)
 
-for i in range (5):
-    script_links(links_base[i], links_prontos[i])
+
+links_base =    [       "./links/links-base/2008-2009-links-base.json",
+                        "./links/links-base/2009-2010-links-base.json",
+                        "./links/links-base/2010-2011-links-base.json",
+                        "./links/links-base/2011-2012-links-base.json",
+                        "./links/links-base/2012-2013-links-base.json"
+                    ]
+
+
+links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
+                        "./links/links-prontos/2009-2010-links.json",
+                        "./links/links-prontos/2010-2011-links.json",
+                        "./links/links-prontos/2011-2012-links.json",
+                        "./links/links-prontos/2012-2013-links.json"
+                    ]
+
+script_links("./links/links-base/2009-2010-links-base.json", "./links/links-prontos/2009-2010-links.json")

@@ -89,6 +89,6 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2012-2013-combined.json'
                 ]
 
-for i in range (2):
-    main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])
+#for i in range (2):
+main(partidas_paths[1], estatisticas_dirs[1], temporadas[1], output_paths[1])
 

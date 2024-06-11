@@ -151,11 +151,11 @@ def main(arquivo_temporada, temporada, isTesting):
         printar_dados(dados)
 
         rodada_num = int(rodada.split('-')[-1])
-        if ( 1 <= rodada_num <= 15 ) and (flag_classificacao == 0):
+        if ( 1 <= rodada_num <= 14 ) and (flag_classificacao == 0):
             etapa = 1
-        elif 16 <= rodada_num <= 30:
+        elif 15 <= rodada_num <= 28:
             etapa = 2
-            rodada_num -= 15
+            rodada_num -= 14
             flag_classificacao = 1
         else:
             fase_map = {
@@ -173,22 +173,22 @@ def main(arquivo_temporada, temporada, isTesting):
     return 0
 
 arquivos_links = [
-    "./links/links-prontos/2008-2009-links.json",
     "./links/links-prontos/2009-2010-links.json",
+    "./links/links-prontos/2008-2009-links.json",
     "./links/links-prontos/2010-2011-links.json",
     "./links/links-prontos/2011-2012-links.json",
     "./links/links-prontos/2012-2013-links.json"
 ]
 
 nomes_arquivos = [
-    "2008-2009",
     "2009-2010",
+    "2008-2009",
     "2010-2011",
     "2011-2012",
     "2012-2013"
 ]
 
-for i in range(5):
+for i in range(1):
     isTesting = False
     print(arquivos_links[i])
     main(arquivos_links[i], nomes_arquivos[i], isTesting)
