@@ -96,119 +96,119 @@
 14/01/2012,Pinheiros,89,76,Joinville,14,1
 14/01/2012,Araraquara,52,99,Flamengo,14,1
 14/01/2012,Limeira,79,65,Tijuca,14,1
-19/01/2012,Flamengo,86,71,Tijuca,15,1
-19/01/2012,Bauru,104,59,L. Sorocabana,15,1
-19/01/2012,Minas,69,81,Brasília,15,1
-19/01/2012,Paulistano,80,90,Pinheiros,15,1
-19/01/2012,Joinville,81,86,São José,15,1
-19/01/2012,Limeira,69,65,Araraquara,15,1
-19/01/2012,Franca,87,84,Uberlândia,15,1
+19/01/2012,Flamengo,86,71,Tijuca,1,1
+19/01/2012,Bauru,104,59,L. Sorocabana,1,1
+19/01/2012,Minas,69,81,Brasília,1,1
+19/01/2012,Paulistano,80,90,Pinheiros,1,1
+19/01/2012,Joinville,81,86,São José,1,1
+19/01/2012,Limeira,69,65,Araraquara,1,1
+19/01/2012,Franca,87,84,Uberlândia,1,1
 21/01/2012,Espírito Santo,73,81,Brasília,11,1
-25/01/2012,Espírito Santo,74,76,L. Sorocabana,1,2
-26/01/2012,Brasília,82,83,São José,1,2
-26/01/2012,Paulistano,90,86,Flamengo,1,2
-26/01/2012,Minas,72,75,Joinville,1,2
-26/01/2012,Limeira,84,74,Franca,1,2
-26/01/2012,Pinheiros,77,71,Tijuca,1,2
-26/01/2012,Araraquara,84,85,Uberlândia,1,2
-28/01/2012,Pinheiros,91,88,Flamengo,2,2
-28/01/2012,Minas,85,80,São José,2,2
-28/01/2012,Paulistano,80,84,Tijuca,2,2
-28/01/2012,Brasília,100,83,Joinville,2,2
-28/01/2012,Araraquara,67,102,Franca,2,2
-28/01/2012,Espírito Santo,68,76,Bauru,2,2
-28/01/2012,Limeira,84,74,Uberlândia,2,2
-30/01/2012,Tijuca,79,87,Brasília,3,2
-02/02/2012,Franca,71,75,Paulistano,3,2
-02/02/2012,São José,82,74,L. Sorocabana,3,2
-02/02/2012,Joinville,79,75,Bauru,3,2
-02/02/2012,Araraquara,80,71,Espírito Santo,3,2
-04/02/2012,Limeira,73,70,Espírito Santo,4,2
-04/02/2012,Uberlândia,87,73,Paulistano,4,2
-04/02/2012,Tijuca,85,70,Minas,4,2
-04/02/2012,São José,79,69,Bauru,4,2
-04/02/2012,Joinville,86,66,L. Sorocabana,4,2
-08/02/2012,Espírito Santo,73,86,São José,5,2
-09/02/2012,Minas,73,78,Franca,5,2
-09/02/2012,L. Sorocabana,88,74,Tijuca,5,2
-09/02/2012,Bauru,81,83,Flamengo,5,2
-09/02/2012,Paulistano,65,79,Limeira,5,2
-09/02/2012,Brasília,94,81,Uberlândia,5,2
-09/02/2012,Pinheiros,75,55,Araraquara,5,2
-11/02/2012,L. Sorocabana,70,71,Flamengo,6,2
-11/02/2012,Bauru,87,81,Tijuca,6,2
-11/02/2012,Minas,94,82,Uberlândia,6,2
-11/02/2012,Paulistano,84,76,Araraquara,6,2
-11/02/2012,Brasília,90,85,Franca,6,2
-11/02/2012,Pinheiros,86,83,Limeira,6,2
-11/02/2012,Espírito Santo,67,74,Joinville,6,2
-14/02/2012,Uberlândia,74,80,Pinheiros,3,2
-16/02/2012,Franca,89,87,Pinheiros,4,2
-16/02/2012,Paulistano,78,63,Bauru,11,2
-23/02/2012,Tijuca,78,89,São José,7,2
-23/02/2012,Uberlândia,64,53,L. Sorocabana,7,2
-23/02/2012,Limeira,86,80,Minas,7,2
-23/02/2012,Pinheiros,85,67,Espírito Santo,7,2
-23/02/2012,Araraquara,66,105,Brasília,7,2
-23/02/2012,Flamengo,97,83,Joinville,7,2
-25/02/2012,Paulistano,78,55,Espírito Santo,8,2
-25/02/2012,Tijuca,91,89,Joinville,8,2
-25/02/2012,Uberlândia,96,80,Bauru,8,2
-25/02/2012,Araraquara,81,83,Minas,8,2
-25/02/2012,Flamengo,79,85,São José,8,2
-25/02/2012,Limeira,77,83,Brasília,8,2
-29/02/2012,Espírito Santo,98,108,Tijuca,9,2
-01/03/2012,L. Sorocabana,99,91,Araraquara,9,2
-01/03/2012,Bauru,99,79,Limeira,9,2
-01/03/2012,Minas,69,75,Paulistano,9,2
-01/03/2012,São José,102,86,Uberlândia,9,2
-01/03/2012,Brasília,86,75,Pinheiros,9,2
-03/03/2012,Espírito Santo,60,72,Flamengo,10,2
-03/03/2012,Minas,73,104,Pinheiros,10,2
-03/03/2012,Joinville,93,73,Uberlândia,10,2
-03/03/2012,L. Sorocabana,74,73,Limeira,10,2
-03/03/2012,Bauru,95,63,Araraquara,10,2
-03/03/2012,São José,95,88,Franca,10,2
-03/03/2012,Brasília,97,63,Paulistano,10,2
-06/03/2012,Flamengo,99,89,Minas,3,2
-07/03/2012,Franca,87,80,Bauru,7,2
-12/03/2012,Franca,90,75,L. Sorocabana,8,2
-13/03/2012,Brasília,81,66,Espírito Santo,11,2
-13/03/2012,Pinheiros,91,67,Bauru,12,2
-15/03/2012,Pinheiros,95,71,L. Sorocabana,11,2
-15/03/2012,Franca,91,80,Flamengo,11,2
-15/03/2012,Minas,73,72,Espírito Santo,12,2
-15/03/2012,Uberlândia,88,66,Tijuca,11,2
-15/03/2012,Limeira,78,85,Joinville,11,2
-15/03/2012,Araraquara,80,82,São José,11,2
-17/03/2012,Araraquara,88,106,Joinville,12,2
-17/03/2012,Franca,94,82,Tijuca,12,2
-17/03/2012,Paulistano,87,83,L. Sorocabana,12,2
-17/03/2012,Limeira,71,83,São José,12,2
-17/03/2012,Uberlândia,96,98,Flamengo,12,2
-21/03/2012,Joinville,92,89,Franca,9,2
-24/03/2012,Brasília,93,74,Flamengo,4,2
-28/03/2012,Espírito Santo,71,73,Uberlândia,13,2
-29/03/2012,Tijuca,90,78,Araraquara,13,2
-29/03/2012,Flamengo,97,96,Limeira,13,2
-29/03/2012,Joinville,68,67,Paulistano,13,2
-29/03/2012,L. Sorocabana,89,91,Brasília,13,2
-31/03/2012,Tijuca,76,77,Limeira,14,2
-31/03/2012,L. Sorocabana,91,79,Minas,14,2
-31/03/2012,São José,75,64,Paulistano,14,2
-31/03/2012,Joinville,85,86,Pinheiros,14,2
-31/03/2012,Espírito Santo,66,85,Franca,14,2
-31/03/2012,Flamengo,81,65,Araraquara,14,2
-05/04/2012,Pinheiros,82,87,Paulistano,15,2
-05/04/2012,Tijuca,76,83,Flamengo,15,2
-05/04/2012,São José,93,82,Joinville,15,2
-05/04/2012,Uberlândia,80,68,Franca,15,2
-05/04/2012,Araraquara,78,89,Limeira,15,2
-06/04/2012,Brasília,87,76,Minas,15,2
-06/04/2012,L. Sorocabana,71,64,Bauru,15,2
-08/04/2012,Bauru,76,75,Minas,13,2
-10/04/2012,Bauru,96,80,Brasília,14,2
-10/04/2012,São José,66,64,Pinheiros,13,2
+25/01/2012,Espírito Santo,74,76,L. Sorocabana,2,2
+26/01/2012,Brasília,82,83,São José,2,2
+26/01/2012,Paulistano,90,86,Flamengo,2,2
+26/01/2012,Minas,72,75,Joinville,2,2
+26/01/2012,Limeira,84,74,Franca,2,2
+26/01/2012,Pinheiros,77,71,Tijuca,2,2
+26/01/2012,Araraquara,84,85,Uberlândia,2,2
+28/01/2012,Pinheiros,91,88,Flamengo,3,2
+28/01/2012,Minas,85,80,São José,3,2
+28/01/2012,Paulistano,80,84,Tijuca,3,2
+28/01/2012,Brasília,100,83,Joinville,3,2
+28/01/2012,Araraquara,67,102,Franca,3,2
+28/01/2012,Espírito Santo,68,76,Bauru,3,2
+28/01/2012,Limeira,84,74,Uberlândia,3,2
+30/01/2012,Tijuca,79,87,Brasília,4,2
+02/02/2012,Franca,71,75,Paulistano,4,2
+02/02/2012,São José,82,74,L. Sorocabana,4,2
+02/02/2012,Joinville,79,75,Bauru,4,2
+02/02/2012,Araraquara,80,71,Espírito Santo,4,2
+04/02/2012,Limeira,73,70,Espírito Santo,5,2
+04/02/2012,Uberlândia,87,73,Paulistano,5,2
+04/02/2012,Tijuca,85,70,Minas,5,2
+04/02/2012,São José,79,69,Bauru,5,2
+04/02/2012,Joinville,86,66,L. Sorocabana,5,2
+08/02/2012,Espírito Santo,73,86,São José,6,2
+09/02/2012,Minas,73,78,Franca,6,2
+09/02/2012,L. Sorocabana,88,74,Tijuca,6,2
+09/02/2012,Bauru,81,83,Flamengo,6,2
+09/02/2012,Paulistano,65,79,Limeira,6,2
+09/02/2012,Brasília,94,81,Uberlândia,6,2
+09/02/2012,Pinheiros,75,55,Araraquara,6,2
+11/02/2012,L. Sorocabana,70,71,Flamengo,7,2
+11/02/2012,Bauru,87,81,Tijuca,7,2
+11/02/2012,Minas,94,82,Uberlândia,7,2
+11/02/2012,Paulistano,84,76,Araraquara,7,2
+11/02/2012,Brasília,90,85,Franca,7,2
+11/02/2012,Pinheiros,86,83,Limeira,7,2
+11/02/2012,Espírito Santo,67,74,Joinville,7,2
+14/02/2012,Uberlândia,74,80,Pinheiros,4,2
+16/02/2012,Franca,89,87,Pinheiros,5,2
+16/02/2012,Paulistano,78,63,Bauru,12,2
+23/02/2012,Tijuca,78,89,São José,8,2
+23/02/2012,Uberlândia,64,53,L. Sorocabana,8,2
+23/02/2012,Limeira,86,80,Minas,8,2
+23/02/2012,Pinheiros,85,67,Espírito Santo,8,2
+23/02/2012,Araraquara,66,105,Brasília,8,2
+23/02/2012,Flamengo,97,83,Joinville,8,2
+25/02/2012,Paulistano,78,55,Espírito Santo,9,2
+25/02/2012,Tijuca,91,89,Joinville,9,2
+25/02/2012,Uberlândia,96,80,Bauru,9,2
+25/02/2012,Araraquara,81,83,Minas,9,2
+25/02/2012,Flamengo,79,85,São José,9,2
+25/02/2012,Limeira,77,83,Brasília,9,2
+29/02/2012,Espírito Santo,98,108,Tijuca,10,2
+01/03/2012,L. Sorocabana,99,91,Araraquara,10,2
+01/03/2012,Bauru,99,79,Limeira,10,2
+01/03/2012,Minas,69,75,Paulistano,10,2
+01/03/2012,São José,102,86,Uberlândia,10,2
+01/03/2012,Brasília,86,75,Pinheiros,10,2
+03/03/2012,Espírito Santo,60,72,Flamengo,11,2
+03/03/2012,Minas,73,104,Pinheiros,11,2
+03/03/2012,Joinville,93,73,Uberlândia,11,2
+03/03/2012,L. Sorocabana,74,73,Limeira,11,2
+03/03/2012,Bauru,95,63,Araraquara,11,2
+03/03/2012,São José,95,88,Franca,11,2
+03/03/2012,Brasília,97,63,Paulistano,11,2
+06/03/2012,Flamengo,99,89,Minas,4,2
+07/03/2012,Franca,87,80,Bauru,8,2
+12/03/2012,Franca,90,75,L. Sorocabana,9,2
+13/03/2012,Brasília,81,66,Espírito Santo,12,2
+13/03/2012,Pinheiros,91,67,Bauru,13,2
+15/03/2012,Pinheiros,95,71,L. Sorocabana,12,2
+15/03/2012,Franca,91,80,Flamengo,12,2
+15/03/2012,Minas,73,72,Espírito Santo,13,2
+15/03/2012,Uberlândia,88,66,Tijuca,12,2
+15/03/2012,Limeira,78,85,Joinville,12,2
+15/03/2012,Araraquara,80,82,São José,12,2
+17/03/2012,Araraquara,88,106,Joinville,13,2
+17/03/2012,Franca,94,82,Tijuca,13,2
+17/03/2012,Paulistano,87,83,L. Sorocabana,13,2
+17/03/2012,Limeira,71,83,São José,13,2
+17/03/2012,Uberlândia,96,98,Flamengo,13,2
+21/03/2012,Joinville,92,89,Franca,10,2
+24/03/2012,Brasília,93,74,Flamengo,5,2
+28/03/2012,Espírito Santo,71,73,Uberlândia,14,2
+29/03/2012,Tijuca,90,78,Araraquara,14,2
+29/03/2012,Flamengo,97,96,Limeira,14,2
+29/03/2012,Joinville,68,67,Paulistano,14,2
+29/03/2012,L. Sorocabana,89,91,Brasília,14,2
+31/03/2012,Tijuca,76,77,Limeira,15,2
+31/03/2012,L. Sorocabana,91,79,Minas,15,2
+31/03/2012,São José,75,64,Paulistano,15,2
+31/03/2012,Joinville,85,86,Pinheiros,15,2
+31/03/2012,Espírito Santo,66,85,Franca,15,2
+31/03/2012,Flamengo,81,65,Araraquara,15,2
+05/04/2012,Pinheiros,82,87,Paulistano,16,2
+05/04/2012,Tijuca,76,83,Flamengo,16,2
+05/04/2012,São José,93,82,Joinville,16,2
+05/04/2012,Uberlândia,80,68,Franca,16,2
+05/04/2012,Araraquara,78,89,Limeira,16,2
+06/04/2012,Brasília,87,76,Minas,16,2
+06/04/2012,L. Sorocabana,71,64,Bauru,16,2
+08/04/2012,Bauru,76,75,Minas,14,2
+10/04/2012,Bauru,96,80,Brasília,15,2
+10/04/2012,São José,66,64,Pinheiros,14,2
 13/04/2012,Limeira,77,69,Joinville,1,3
 14/04/2012,Tijuca,75,67,Uberlândia,1,3
 14/04/2012,L. Sorocabana,76,82,Bauru,1,3

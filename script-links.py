@@ -62,4 +62,4 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2012-2013-links.json"
                     ]
 
-script_links("./links/links-base/2009-2010-links-base.json", "./links/links-prontos/2009-2010-links.json")
+script_links("./links/links-base/2011-2012-links-base.json", "./links/links-prontos/2011-2012-links.json")
