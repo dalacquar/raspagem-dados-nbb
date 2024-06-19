@@ -11,16 +11,27 @@ def script_links (arq_base, arq_saida):
     cont_rodada = 1
     for stage in range(1, 7):
         if (stage <= 2):
-            for rodada in range(1, 15):
-                rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
-                rodada_data = {}
+            for rodada in range(1, 16):
+                if(stage == 2):
+                    rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
+                    rodada_data = {}
 
-                for key, value in data.items():
-                    modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(rodada)}")
-                    rodada_data[key] = modified_link
+                    for key, value in data.items():
+                        modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(cont_rodada)}")
+                        rodada_data[key] = modified_link
 
-                    new_data[rodada_key] = rodada_data
-                cont_rodada += 1
+                        new_data[rodada_key] = rodada_data
+                    cont_rodada += 1
+                else :
+                    rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
+                    rodada_data = {}
+
+                    for key, value in data.items():
+                        modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(rodada)}")
+                        rodada_data[key] = modified_link
+
+                        new_data[rodada_key] = rodada_data
+                    cont_rodada += 1
         else :
             cont_rodada = 1
             for rodada in range(1, 6):

@@ -151,11 +151,11 @@ def main(arquivo_temporada, temporada, isTesting):
         printar_dados(dados)
 
         rodada_num = int(rodada.split('-')[-1])
-        if ( 1 <= rodada_num <= 14 ) and (flag_classificacao == 0):
+        if ( 1 <= rodada_num <= 15 ) and (flag_classificacao == 0):
             etapa = 1
-        elif 15 <= rodada_num <= 28:
+        elif 16 <= rodada_num <= 30:
             etapa = 2
-            rodada_num -= 14
+            rodada_num -= 15
             flag_classificacao = 1
         else:
             fase_map = {

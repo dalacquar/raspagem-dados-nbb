@@ -61,7 +61,7 @@ def main(file_path, temporada):
     data = read_json(file_path)
     insert_data(data, temporada)
 
-temporada = '2009-2010'
-file_path = './dados/resultados/2009-2010-combined.json'
+temporada = '2011-2012'
+file_path = './dados/resultados/2011-2012-combined.json'
 
 main(file_path, temporada)

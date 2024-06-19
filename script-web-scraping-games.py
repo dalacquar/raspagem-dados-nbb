@@ -49,8 +49,8 @@ def extrair_dados(html_content):
             round_number_int = int(round_number) if round_number.isdigit() else 0
 
             # Ajustar o número da rodada para rodadas a partir de 16
-            if round_number_int >= 15:
-                adjusted_round_number = str(round_number_int - 14)
+            if round_number_int >= 16:
+                adjusted_round_number = str(round_number_int - 15)
             else:
                 adjusted_round_number = round_number
             
