@@ -11,7 +11,7 @@ def script_links (arq_base, arq_saida):
     cont_rodada = 1
     for stage in range(1, 7):
         if (stage <= 2):
-            for rodada in range(1, 16):
+            for rodada in range(1, 19):
                 if(stage == 2):
                     rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
                     rodada_data = {}
@@ -73,4 +73,4 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2012-2013-links.json"
                     ]
 
-script_links("./links/links-base/2011-2012-links-base.json", "./links/links-prontos/2011-2012-links.json")
+script_links("./links/links-base/2012-2013-links-base.json", "./links/links-prontos/2012-2013-links.json")

@@ -38,10 +38,7 @@ def insert_teams_to_db(teams, db_config):
 
 # Lista de caminhos para as pastas que contêm os arquivos CSV
 folder_paths = [
-    './dados/estatisticas/2008-2009',
-    './dados/estatisticas/2009-2010',
-    './dados/estatisticas/2010-2011',
-    './dados/estatisticas/2011-2012',
+
     './dados/estatisticas/2012-2013',
 ]
 

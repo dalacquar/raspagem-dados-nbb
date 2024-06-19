@@ -5,6 +5,7 @@ team_name_mapping = {
     'São José': ['São José', 'Coop/São José Basketball'],
     'Franca': ['Franca', 'Sesi Franca'],
     'Bauru': ['Bauru', 'Bauru Basket'],
+    'Basq. Cearense': ['Basq. Cearense', 'Fortaleza B. C. / CFO'],
 }
 
 
@@ -90,5 +91,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 ]
 
 #for i in range (2):
-main(partidas_paths[3], estatisticas_dirs[3], temporadas[3], output_paths[3])
+main(partidas_paths[4], estatisticas_dirs[4], temporadas[4], output_paths[4])
 

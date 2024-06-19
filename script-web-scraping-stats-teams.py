@@ -151,11 +151,11 @@ def main(arquivo_temporada, temporada, isTesting):
         printar_dados(dados)
 
         rodada_num = int(rodada.split('-')[-1])
-        if ( 1 <= rodada_num <= 15 ) and (flag_classificacao == 0):
+        if ( 1 <= rodada_num <= 18 ) and (flag_classificacao == 0):
             etapa = 1
-        elif 16 <= rodada_num <= 30:
+        elif 19 <= rodada_num <= 36:
             etapa = 2
-            rodada_num -= 15
+            rodada_num -= 18
             flag_classificacao = 1
         else:
             fase_map = {
@@ -189,7 +189,7 @@ nomes_arquivos = [
 ]
 
 for i in range(1):
-    i=3
+    i=4
     isTesting = False
     print(arquivos_links[i])
     main(arquivos_links[i], nomes_arquivos[i], isTesting)

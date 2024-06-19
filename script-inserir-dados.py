@@ -14,6 +14,7 @@ team_name_mapping = {
     'São José': 'Coop/São José Basketball',
     'Franca': 'Sesi Franca',
     'Bauru': 'Bauru Basket',
+    'Basq. Cearense': 'Fortaleza B. C. / CFO',
 }
 
 def convert_date(date_str):
@@ -61,7 +62,7 @@ def main(file_path, temporada):
     data = read_json(file_path)
     insert_data(data, temporada)
 
-temporada = '2011-2012'
-file_path = './dados/resultados/2011-2012-combined.json'
+temporada = '2012-2013'
+file_path = './dados/resultados/2012-2013-combined.json'
 
 main(file_path, temporada)
