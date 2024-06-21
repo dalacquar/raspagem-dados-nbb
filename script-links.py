@@ -11,10 +11,11 @@ def script_links (arq_base, arq_saida, isConsecutivo, rounds_totais):
     cont_rodada = 1
     for stage in range(1, 7):
         if (stage <= 2): #playin
-            for rodada in range(1, ((rounds_totais//2) + 1)):
+            for rodada in range(1, ((rounds_totais) + 1)):
                 # rounds consecutivos 
                 if(isConsecutivo):
                     if(stage == 2):
+                        continue
                         rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
                         rodada_data = {}
 
@@ -87,7 +88,9 @@ links_base =    [       "./links/links-base/2008-2009-links-base.json",
                         "./links/links-base/2011-2012-links-base.json",
                         "./links/links-base/2012-2013-links-base.json",
                         "./links/links-base/2013-2014-links-base.json",
-                        "./links/links-base/2014-2015-links-base.json"
+                        "./links/links-base/2014-2015-links-base.json",
+                        "./links/links-base/2015-2016-links-base.json",
+                        "./links/links-base/2016-2017-links-base.json"
                     ]
 
 
@@ -97,7 +100,9 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2011-2012-links.json",
                         "./links/links-prontos/2012-2013-links.json",
                         "./links/links-prontos/2013-2014-links.json",
-                        "./links/links-prontos/2014-2015-links.json"
+                        "./links/links-prontos/2014-2015-links.json",
+                        "./links/links-prontos/2015-2016-links.json",
+                        "./links/links-prontos/2016-2017-links.json"
                     ]
 
-script_links("./links/links-base/2014-2015-links-base.json", "./links/links-prontos/2014-2015-links.json", True, 30)
+script_links("./links/links-base/2016-2017-links-base.json", "./links/links-prontos/2016-2017-links.json", True, 30)

@@ -179,7 +179,8 @@ arquivos_links = [
     "./links/links-prontos/2011-2012-links.json",
     "./links/links-prontos/2012-2013-links.json",
     "./links/links-prontos/2013-2014-links.json",
-    "./links/links-prontos/2014-2015-links.json"
+    "./links/links-prontos/2014-2015-links.json",
+    "./links/links-prontos/2015-2016-links.json"
 
 ]
 
@@ -190,10 +191,11 @@ nomes_arquivos = [
     "2011-2012",
     "2012-2013",
     "2013-2014",
-    "2014-2015"
+    "2014-2015",
+    "2015-2016"
 ]
 
-i=6
+i=7
 isTesting = False
 print(arquivos_links[i])
 main(arquivos_links[i], nomes_arquivos[i], isTesting, 30)

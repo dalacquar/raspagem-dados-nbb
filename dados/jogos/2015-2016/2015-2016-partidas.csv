@@ -1,0 +1,256 @@
+﻿Data,Equipe_Casa,Pontos_Casa,Pontos_Visitante,Equipe_Visitante,Rodada,Etapa
+02/11/2015,Bauru,77,73,Flamengo,1,1
+03/11/2015,Franca,77,73,Macaé,1,1
+03/11/2015,Rio Claro,82,67,L. Sorocabana,1,1
+04/11/2015,Pinheiros,75,63,Minas,1,1
+04/11/2015,Caxias do Sul,82,91,Brasília,1,1
+04/11/2015,Basq. Cearense,83,76,Mogi,1,1
+04/11/2015,Vitória,60,68,São José,1,1
+05/11/2015,Bauru,88,64,Macaé,2,1
+05/11/2015,Franca,65,89,Flamengo,2,1
+05/11/2015,Rio Claro,67,74,Paulistano,2,1
+06/11/2015,Pinheiros,68,93,Brasília,2,1
+06/11/2015,Caxias do Sul,48,75,Minas,2,1
+06/11/2015,Basq. Cearense,80,91,São José,2,1
+06/11/2015,Vitória,64,83,Mogi,2,1
+10/11/2015,Minas,75,85,Franca,3,1
+10/11/2015,Mogi,83,52,Caxias do Sul,3,1
+10/11/2015,São José,74,95,Pinheiros,3,1
+11/11/2015,Paulistano,108,101,Basq. Cearense,3,1
+11/11/2015,Macaé,84,80,Rio Claro,3,1
+11/11/2015,L. Sorocabana,71,69,Vitória,3,1
+12/11/2015,Minas,67,83,Bauru,4,1
+12/11/2015,Mogi,86,83,Pinheiros,4,1
+12/11/2015,São José,71,76,Caxias do Sul,4,1
+13/11/2015,Paulistano,77,63,Vitória,4,1
+13/11/2015,L. Sorocabana,70,78,Basq. Cearense,4,1
+13/11/2015,Flamengo,102,70,Rio Claro,4,1
+17/11/2015,São José,88,82,Rio Claro,5,1
+17/11/2015,Basq. Cearense,81,85,Brasília,5,1
+17/11/2015,Vitória,76,66,Minas,5,1
+18/11/2015,Paulistano,84,82,Macaé,5,1
+18/11/2015,Bauru,71,79,Pinheiros,5,1
+18/11/2015,L. Sorocabana,68,76,Flamengo,5,1
+19/11/2015,Basq. Cearense,64,69,Minas,6,1
+19/11/2015,Vitória,83,73,Brasília,6,1
+20/11/2015,Paulistano,67,60,Flamengo,6,1
+20/11/2015,Bauru,78,51,Caxias do Sul,6,1
+20/11/2015,L. Sorocabana,86,72,Macaé,6,1
+25/11/2015,Brasília,94,106,Franca,4,1
+27/11/2015,Brasília,111,114,Bauru,3,1
+27/11/2015,Mogi,68,63,Rio Claro,6,1
+28/11/2015,Franca,86,82,Caxias do Sul,5,1
+30/11/2015,Franca,70,84,Pinheiros,6,1
+01/12/2015,Rio Claro,63,72,Bauru,7,1
+01/12/2015,Basq. Cearense,67,85,Flamengo,7,1
+01/12/2015,Vitória,86,74,Macaé,7,1
+02/12/2015,Pinheiros,73,59,L. Sorocabana,7,1
+02/12/2015,Minas,74,71,Mogi,7,1
+02/12/2015,Caxias do Sul,70,83,Paulistano,7,1
+03/12/2015,Rio Claro,83,55,Franca,8,1
+03/12/2015,Basq. Cearense,88,64,Macaé,8,1
+03/12/2015,Vitória,70,96,Flamengo,8,1
+04/12/2015,Minas,91,84,São José,8,1
+04/12/2015,Caxias do Sul,78,69,L. Sorocabana,8,1
+05/12/2015,Paulistano,101,77,Pinheiros,8,1
+08/12/2015,Paulistano,82,50,Minas,9,1
+08/12/2015,Flamengo,93,51,Caxias do Sul,9,1
+08/12/2015,Macaé,101,97,Pinheiros,9,1
+09/12/2015,Franca,91,79,São José,9,1
+09/12/2015,Bauru,90,74,Mogi,9,1
+09/12/2015,Rio Claro,68,77,Basq. Cearense,9,1
+10/12/2015,L. Sorocabana,58,61,Minas,10,1
+10/12/2015,Flamengo,79,83,Pinheiros,10,1
+10/12/2015,Macaé,71,62,Caxias do Sul,10,1
+11/12/2015,Bauru,104,74,São José,10,1
+11/12/2015,Rio Claro,86,63,Vitória,10,1
+12/12/2015,Franca,88,90,Mogi,10,1
+15/12/2015,Minas,74,81,Flamengo,11,1
+15/12/2015,Franca,78,106,Basq. Cearense,11,1
+15/12/2015,Brasília,107,104,Macaé,11,1
+15/12/2015,Mogi,93,84,L. Sorocabana,11,1
+15/12/2015,São José,83,77,Paulistano,11,1
+15/12/2015,Bauru,94,68,Vitória,11,1
+15/12/2015,Caxias do Sul,67,65,Rio Claro,11,1
+17/12/2015,Paulistano,84,75,Mogi,12,1
+17/12/2015,Pinheiros,90,96,Rio Claro,12,1
+17/12/2015,Minas,90,81,Macaé,12,1
+17/12/2015,Bauru,82,66,Basq. Cearense,12,1
+17/12/2015,São José,88,81,L. Sorocabana,12,1
+17/12/2015,Franca,76,78,Vitória,12,1
+17/12/2015,Brasília,85,94,Flamengo,12,1
+19/12/2015,Paulistano,80,77,Bauru,13,1
+20/12/2015,Rio Claro,67,77,Minas,13,1
+20/12/2015,Vitória,74,65,Caxias do Sul,13,1
+20/12/2015,Flamengo,94,77,São José,13,1
+20/12/2015,L. Sorocabana,0,20,Franca,13,1
+20/12/2015,Macaé,70,82,Mogi,13,1
+20/12/2015,Basq. Cearense,68,63,Pinheiros,13,1
+22/12/2015,Paulistano,79,84,Franca,14,1
+22/12/2015,Macaé,79,63,São José,14,1
+22/12/2015,L. Sorocabana,84,80,Bauru,14,1
+22/12/2015,Flamengo,79,77,Mogi,14,1
+22/12/2015,Rio Claro,84,69,Brasília,14,1
+22/12/2015,Basq. Cearense,66,50,Caxias do Sul,14,1
+22/12/2015,Vitória,78,98,Pinheiros,14,1
+08/01/2016,Pinheiros,74,89,Caxias do Sul,15,1
+08/01/2016,Paulistano,84,51,L. Sorocabana,15,1
+08/01/2016,Franca,68,90,Bauru,15,1
+08/01/2016,Mogi,82,70,São José,15,1
+08/01/2016,Flamengo,96,66,Macaé,15,1
+08/01/2016,Vitória,60,71,Basq. Cearense,15,1
+09/01/2016,Brasília,72,59,Minas,15,1
+12/01/2016,Minas,70,83,Pinheiros,1,2
+12/01/2016,Brasília,90,79,Caxias do Sul,1,2
+12/01/2016,São José,87,81,Vitória,1,2
+13/01/2016,Macaé,74,89,Franca,1,1
+13/01/2016,L. Sorocabana,65,56,Rio Claro,1,2
+13/01/2016,Flamengo,85,69,Bauru,1,2
+14/01/2016,Minas,77,67,Caxias do Sul,2,2
+14/01/2016,São José,81,90,Basq. Cearense,2,2
+14/01/2016,Brasília,90,70,Pinheiros,2,2
+15/01/2016,Macaé,68,101,Bauru,2,2
+15/01/2016,Paulistano,70,73,Rio Claro,2,2
+16/01/2016,Flamengo,83,73,Franca,2,2
+17/01/2016,L. Sorocabana,73,93,Brasília,9,1
+19/01/2016,Paulistano,75,81,Brasília,10,1
+20/01/2016,Rio Claro,73,91,Flamengo,4,2
+22/01/2016,Brasília,91,79,Mogi,8,1
+23/01/2016,Rio Claro,62,61,Macaé,3,2
+23/01/2016,Flamengo,69,54,L. Sorocabana,5,2
+24/01/2016,Brasília,83,73,São José,7,1
+26/01/2016,Basq. Cearense,72,69,Paulistano,3,2
+26/01/2016,Vitória,73,74,L. Sorocabana,3,2
+27/01/2016,Pinheiros,104,65,São José,3,2
+27/01/2016,Franca,80,79,Minas,3,2
+27/01/2016,Caxias do Sul,81,89,Mogi,3,2
+28/01/2016,Vitória,68,85,Paulistano,4,2
+29/01/2016,Pinheiros,79,81,Mogi,4,2
+29/01/2016,Franca,71,79,Brasília,4,2
+29/01/2016,Bauru,94,81,Minas,4,2
+29/01/2016,Caxias do Sul,65,73,São José,4,2
+30/01/2016,Basq. Cearense,88,65,L. Sorocabana,4,2
+31/01/2016,Bauru,94,92,Brasília,3,2
+02/02/2016,Macaé,75,84,Paulistano,5,2
+02/02/2016,Rio Claro,67,63,São José,5,2
+03/02/2016,Minas,79,83,Vitória,5,2
+03/02/2016,Caxias do Sul,90,78,Franca,5,2
+03/02/2016,Pinheiros,88,100,Bauru,5,2
+04/02/2016,Macaé,83,90,L. Sorocabana,6,2
+04/02/2016,Rio Claro,98,84,Mogi,6,2
+04/02/2016,Flamengo,75,65,Paulistano,6,2
+05/02/2016,Pinheiros,87,91,Franca,6,2
+05/02/2016,Minas,61,75,Basq. Cearense,6,2
+06/02/2016,Caxias do Sul,83,84,Bauru,6,2
+12/02/2016,Mogi,84,77,Vitória,2,2
+12/02/2016,Brasília,82,95,Basq. Cearense,5,2
+13/02/2016,L. Sorocabana,63,80,Pinheiros,7,2
+14/02/2016,Mogi,78,73,Basq. Cearense,1,2
+14/02/2016,Brasília,81,67,Vitória,6,2
+16/02/2016,Paulistano,87,60,Caxias do Sul,7,2
+16/02/2016,Bauru,82,69,Rio Claro,7,2
+17/02/2016,Flamengo,66,67,Basq. Cearense,7,2
+17/02/2016,Macaé,88,79,Vitória,7,2
+18/02/2016,São José,81,87,Brasília,7,2
+18/02/2016,Pinheiros,80,84,Paulistano,8,2
+18/02/2016,Franca,64,70,Rio Claro,8,2
+18/02/2016,L. Sorocabana,61,74,Caxias do Sul,8,2
+19/02/2016,Macaé,69,79,Basq. Cearense,8,2
+19/02/2016,São José,59,89,Minas,8,2
+20/02/2016,Flamengo,101,53,Vitória,8,2
+21/02/2016,Brasília,94,73,L. Sorocabana,9,2
+22/02/2016,Caxias do Sul,62,71,Basq. Cearense,14,2
+23/02/2016,Pinheiros,92,87,Macaé,9,2
+23/02/2016,São José,70,82,Franca,9,2
+24/02/2016,Minas,76,82,Paulistano,9,2
+24/02/2016,Basq. Cearense,64,67,Rio Claro,9,2
+25/02/2016,São José,60,62,Bauru,10,2
+25/02/2016,Mogi,93,78,Franca,10,2
+25/02/2016,Caxias do Sul,81,66,Macaé,10,2
+26/02/2016,Minas,57,70,L. Sorocabana,10,2
+26/02/2016,Vitória,67,79,Rio Claro,10,2
+27/02/2016,Mogi,85,79,Bauru,9,2
+03/03/2016,Mogi,71,64,Minas,7,2
+03/03/2016,Vitória,96,94,Bauru,11,2
+04/03/2016,Pinheiros,75,81,Flamengo,10,2
+05/03/2016,Mogi,78,75,Brasília,8,2
+06/03/2016,Caxias do Sul,80,97,Flamengo,9,2
+09/03/2016,Basq. Cearense,99,71,Franca,11,2
+09/03/2016,Macaé,77,99,Brasília,11,2
+09/03/2016,Rio Claro,74,75,Caxias do Sul,11,2
+09/03/2016,Paulistano,89,77,São José,11,2
+11/03/2016,Macaé,60,74,Minas,12,2
+11/03/2016,Vitória,72,78,Franca,12,2
+11/03/2016,L. Sorocabana,78,66,São José,12,2
+12/03/2016,Rio Claro,76,77,Pinheiros,12,2
+13/03/2016,Brasília,81,69,Paulistano,10,2
+16/03/2016,Flamengo,73,75,Brasília,12,2
+17/03/2016,Basq. Cearense,90,86,Bauru,12,2
+17/03/2016,Mogi,80,83,Paulistano,12,2
+23/03/2016,Franca,79,88,Paulistano,14,2
+23/03/2016,Minas,77,72,Rio Claro,13,2
+23/03/2016,Pinheiros,93,81,Basq. Cearense,13,2
+23/03/2016,São José,80,88,Flamengo,13,2
+23/03/2016,Mogi,88,79,Macaé,13,2
+23/03/2016,Caxias do Sul,72,76,Vitória,13,2
+23/03/2016,Bauru,90,71,L. Sorocabana,14,2
+25/03/2016,Franca,95,89,L. Sorocabana,13,2
+25/03/2016,Brasília,66,68,Rio Claro,14,2
+25/03/2016,Mogi,85,88,Flamengo,14,2
+25/03/2016,Pinheiros,75,60,Vitória,14,2
+25/03/2016,São José,70,71,Macaé,14,2
+26/03/2016,Bauru,78,63,Paulistano,13,2
+27/03/2016,Flamengo,76,65,Minas,11,2
+27/03/2016,L. Sorocabana,82,91,Mogi,11,2
+29/03/2016,Bauru,103,78,Franca,15,2
+29/03/2016,Caxias do Sul,79,72,Pinheiros,15,2
+29/03/2016,Minas,107,95,Brasília,15,2
+29/03/2016,São José,81,86,Mogi,15,2
+29/03/2016,L. Sorocabana,65,81,Paulistano,15,2
+29/03/2016,Basq. Cearense,90,65,Vitória,15,2
+29/03/2016,Macaé,62,92,Flamengo,15,2
+02/04/2016,Franca,87,85,Rio Claro,1,3
+03/04/2016,Caxias do Sul,101,78,Brasília,1,3
+04/04/2016,Minas,83,79,Pinheiros,1,3
+04/04/2016,Vitória,72,74,Mogi,1,3
+05/04/2016,Rio Claro,89,79,Franca,2,3
+06/04/2016,Brasília,95,67,Caxias do Sul,2,3
+07/04/2016,Mogi,81,67,Vitória,2,3
+07/04/2016,Pinheiros,70,77,Minas,2,3
+08/04/2016,Rio Claro,81,62,Franca,3,3
+08/04/2016,Brasília,93,73,Caxias do Sul,3,3
+09/04/2016,Mogi,81,58,Vitória,3,3
+09/04/2016,Pinheiros,70,67,Minas,3,3
+11/04/2016,Franca,88,60,Rio Claro,4,3
+11/04/2016,Caxias do Sul,80,86,Brasília,4,3
+12/04/2016,Minas,67,85,Pinheiros,4,3
+13/04/2016,Rio Claro,74,64,Franca,5,3
+15/04/2016,Pinheiros,74,66,Minas,5,3
+16/04/2016,Mogi,67,64,Basq. Cearense,1,4
+16/04/2016,Brasília,88,83,Paulistano,1,4
+18/04/2016,Rio Claro,79,88,Flamengo,1,4
+18/04/2016,Pinheiros,85,95,Bauru,1,4
+19/04/2016,Basq. Cearense,76,55,Mogi,2,4
+20/04/2016,Paulistano,99,78,Brasília,2,4
+21/04/2016,Basq. Cearense,63,64,Mogi,3,4
+21/04/2016,Flamengo,93,73,Rio Claro,2,4
+22/04/2016,Bauru,109,83,Pinheiros,2,4
+22/04/2016,Paulistano,88,100,Brasília,3,4
+23/04/2016,Flamengo,93,82,Rio Claro,3,4
+24/04/2016,Bauru,88,92,Pinheiros,3,4
+24/04/2016,Mogi,95,80,Basq. Cearense,4,4
+25/04/2016,Brasília,83,78,Paulistano,4,4
+27/04/2016,Pinheiros,86,89,Bauru,4,4
+30/04/2016,Mogi,86,81,Flamengo,1,5
+03/05/2016,Brasília,72,89,Bauru,1,5
+06/05/2016,Flamengo,81,71,Mogi,2,5
+07/05/2016,Bauru,100,80,Brasília,2,5
+09/05/2016,Flamengo,77,83,Mogi,3,5
+10/05/2016,Bauru,85,79,Brasília,3,5
+14/05/2016,Mogi,91,93,Flamengo,4,5
+17/05/2016,Flamengo,79,75,Mogi,5,5
+21/05/2016,Bauru,77,83,Flamengo,1,6
+26/05/2016,Flamengo,80,85,Bauru,2,6
+28/05/2016,Flamengo,89,84,Bauru,3,6
+04/06/2016,Bauru,94,81,Flamengo,4,6
+11/06/2016,Flamengo,100,66,Bauru,5,6

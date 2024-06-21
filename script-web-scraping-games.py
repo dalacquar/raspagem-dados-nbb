@@ -187,7 +187,8 @@ arquivos_links = ["./links/links-games/2008-2009-links-games.json",
                   "./links/links-games/2011-2012-links-games.json",
                   "./links/links-games/2012-2013-links-games.json",
                   "./links/links-games/2013-2014-links-games.json",
-                  "./links/links-games/2014-2015-links-games.json"
+                  "./links/links-games/2014-2015-links-games.json",
+                  "./links/links-games/2015-2016-links-games.json"
                   ]
 
 nomes_arquivos =    [   "2008-2009",
@@ -196,8 +197,9 @@ nomes_arquivos =    [   "2008-2009",
                         "2011-2012",
                         "2012-2013",
                         "2013-2014",
-                        "2014-2015"
+                        "2014-2015",
+                        "2015-2016"
                     ]
 
 #for i in range (5):
-main(arquivos_links[6], nomes_arquivos[6], 30)
+main(arquivos_links[7], nomes_arquivos[7], 30)
