@@ -86,7 +86,8 @@ links_base =    [       "./links/links-base/2008-2009-links-base.json",
                         "./links/links-base/2010-2011-links-base.json",
                         "./links/links-base/2011-2012-links-base.json",
                         "./links/links-base/2012-2013-links-base.json",
-                        "./links/links-base/2013-2014-links-base.json"
+                        "./links/links-base/2013-2014-links-base.json",
+                        "./links/links-base/2014-2015-links-base.json"
                     ]
 
 
@@ -95,7 +96,8 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2010-2011-links.json",
                         "./links/links-prontos/2011-2012-links.json",
                         "./links/links-prontos/2012-2013-links.json",
-                        "./links/links-prontos/2013-2014-links.json"
+                        "./links/links-prontos/2013-2014-links.json",
+                        "./links/links-prontos/2014-2015-links.json"
                     ]
 
-script_links("./links/links-base/2013-2014-links-base.json", "./links/links-prontos/2013-2014-links.json", True, 36)
+script_links("./links/links-base/2014-2015-links-base.json", "./links/links-prontos/2014-2015-links.json", True, 30)

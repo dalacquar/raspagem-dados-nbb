@@ -153,7 +153,7 @@ def main(arquivo_temporada, temporada, isTesting, rounds_totais):
         rodada_num = int(rodada.split('-')[-1])
         if ( 1 <= rodada_num <= rounds_totais // 2 ) and (flag_classificacao == 0):
             etapa = 1
-        elif 19 <= rodada_num <= rounds_totais:
+        elif ((rounds_totais // 2) - 1) <= rodada_num <= rounds_totais:
             etapa = 2
             rodada_num -= rounds_totais // 2
             flag_classificacao = 1
@@ -178,7 +178,9 @@ arquivos_links = [
     "./links/links-prontos/2010-2011-links.json",
     "./links/links-prontos/2011-2012-links.json",
     "./links/links-prontos/2012-2013-links.json",
-    "./links/links-prontos/2013-2014-links.json"
+    "./links/links-prontos/2013-2014-links.json",
+    "./links/links-prontos/2014-2015-links.json"
+
 ]
 
 nomes_arquivos = [
@@ -187,10 +189,11 @@ nomes_arquivos = [
     "2010-2011",
     "2011-2012",
     "2012-2013",
-    "2013-2014"
+    "2013-2014",
+    "2014-2015"
 ]
 
-i=5
+i=6
 isTesting = False
 print(arquivos_links[i])
-main(arquivos_links[i], nomes_arquivos[i], isTesting, 36)
+main(arquivos_links[i], nomes_arquivos[i], isTesting, 30)

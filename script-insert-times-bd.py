@@ -38,8 +38,7 @@ def insert_teams_to_db(teams, db_config):
 
 # Lista de caminhos para as pastas que contêm os arquivos CSV
 folder_paths = [
-
-    './dados/estatisticas/2013-2014',
+    './dados/estatisticas/2014-2015',
 ]
 
 # Configurações de conexão ao banco de dados MySQL

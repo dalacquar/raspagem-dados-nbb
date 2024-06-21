@@ -14,7 +14,7 @@ def request_html(url):
         print("Erro na solicitação HTTP:", e)
         return None
 
-def extrair_dados(html_content):
+def extrair_dados(html_content, rounds_totais):
     if html_content is None:
         return None
 
@@ -49,8 +49,8 @@ def extrair_dados(html_content):
             round_number_int = int(round_number) if round_number.isdigit() else 0
 
             # Ajustar o número da rodada para rodadas a partir de 16
-            if round_number_int >= 19:
-                adjusted_round_number = str(round_number_int - 18)
+            if round_number_int >= ((rounds_totais // 2 ) + 1):
+                adjusted_round_number = str(round_number_int - (rounds_totais // 2))
             else:
                 adjusted_round_number = round_number
             
@@ -95,7 +95,7 @@ def escrever_csv(dados, nome_arquivo):
     except Exception as e:
         print(f"Erro ao escrever arquivo CSV: {e}")
 
-def realizar_scrap(url):
+def realizar_scrap(url, rounds_totais):
     html_content = None
     while html_content is None:
         start_time = time.time()
@@ -108,7 +108,7 @@ def realizar_scrap(url):
             time.sleep(5)
             
     start_time = time.time()
-    dados_extraidos = extrair_dados(html_content)
+    dados_extraidos = extrair_dados(html_content, rounds_totais)
     end_time = time.time()
     print("Tempo para extrair os dados:", end_time - start_time, "segundos\n")
 
@@ -161,7 +161,7 @@ def remover_colunas_duplicadas(dados):
 
     return dados_sem_duplicatas
 
-def main(arquivo_temporada, temporada):
+def main(arquivo_temporada, temporada, rounds_totais):
 
     dados = []
 
@@ -171,7 +171,7 @@ def main(arquivo_temporada, temporada):
     for rodada, links in dados_rodadas.items():
         for dado, link in links.items():
             print(f"Link: {link}")
-            dados = realizar_scrap(link) 
+            dados = realizar_scrap(link, rounds_totais) 
             
             printar_dados(dados)
             print("\n")
@@ -186,7 +186,8 @@ arquivos_links = ["./links/links-games/2008-2009-links-games.json",
                   "./links/links-games/2010-2011-links-games.json",
                   "./links/links-games/2011-2012-links-games.json",
                   "./links/links-games/2012-2013-links-games.json",
-                  "./links/links-games/2013-2014-links-games.json"
+                  "./links/links-games/2013-2014-links-games.json",
+                  "./links/links-games/2014-2015-links-games.json"
                   ]
 
 nomes_arquivos =    [   "2008-2009",
@@ -194,8 +195,9 @@ nomes_arquivos =    [   "2008-2009",
                         "2010-2011",
                         "2011-2012",
                         "2012-2013",
-                        "2013-2014"
+                        "2013-2014",
+                        "2014-2015"
                     ]
 
 #for i in range (5):
-main(arquivos_links[5], nomes_arquivos[5])
+main(arquivos_links[6], nomes_arquivos[6], 30)

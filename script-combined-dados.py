@@ -71,21 +71,24 @@ partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
                   "./dados/jogos/2010-2011/2010-2011-partidas.csv",
                   "./dados/jogos/2011-2012/2011-2012-partidas.csv",
                   "./dados/jogos/2012-2013/2012-2013-partidas.csv",
-                  "./dados/jogos/2013-2014/2013-2014-partidas.csv"]
+                  "./dados/jogos/2013-2014/2013-2014-partidas.csv",
+                  "./dados/jogos/2014-2015/2014-2015-partidas.csv"]
 
 estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2009-2010",
                      "./dados/estatisticas/2010-2011",
                      "./dados/estatisticas/2011-2012",
                      "./dados/estatisticas/2012-2013",
-                     "./dados/estatisticas/2013-2014"]
+                     "./dados/estatisticas/2013-2014",
+                     "./dados/estatisticas/2014-2015"]
 
 temporadas = ["2008-2009",
               "2009-2010",
               "2010-2011",
               "2011-2012",
               "2012-2013",
-              "2013-2014"]
+              "2013-2014",
+              "2014-2015"]
 
 
 output_paths = ['./dados/resultados/2008-2009-combined.json',
@@ -93,9 +96,10 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2010-2011-combined.json',
                 './dados/resultados/2011-2012-combined.json',
                 './dados/resultados/2012-2013-combined.json',
-                './dados/resultados/2013-2014-combined.json'
+                './dados/resultados/2013-2014-combined.json',
+                './dados/resultados/2014-2015-combined.json'
                 ]
 
 #for i in range (2):
-main(partidas_paths[5], estatisticas_dirs[5], temporadas[5], output_paths[5])
+main(partidas_paths[6], estatisticas_dirs[6], temporadas[6], output_paths[6])
 
