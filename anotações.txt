@@ -10,16 +10,15 @@
 2014-2015
     season_id = 20
 
-    Rounds Consecutivos 1 - 15
+    Rounds Consecutivos 1 - 30
     stage 1 - 1-15
     stage 2 - 16-30
 
     Dados playoffs - funcionando
 
 2015-2016
-    season_id = 20
-
-    Rounds Consecutivos 1 - 15
+    season_id = 27
+    Rounds Consecutivos 1-30
     stage 1 - 1-15
     stage 2 - 16-30
 

@@ -117,7 +117,7 @@ def remover_colunas_duplicadas(dados):
 
     return dados_sem_duplicatas
 
-def main(arquivo_temporada, temporada, isTesting):
+def main(arquivo_temporada, temporada, isTesting, rounds_totais):
     dados = []
 
     flag_classificacao = 0
@@ -151,11 +151,11 @@ def main(arquivo_temporada, temporada, isTesting):
         printar_dados(dados)
 
         rodada_num = int(rodada.split('-')[-1])
-        if ( 1 <= rodada_num <= 18 ) and (flag_classificacao == 0):
+        if ( 1 <= rodada_num <= rounds_totais // 2 ) and (flag_classificacao == 0):
             etapa = 1
-        elif 19 <= rodada_num <= 36:
+        elif 19 <= rodada_num <= rounds_totais:
             etapa = 2
-            rodada_num -= 18
+            rodada_num -= rounds_totais // 2
             flag_classificacao = 1
         else:
             fase_map = {
@@ -177,7 +177,8 @@ arquivos_links = [
     "./links/links-prontos/2008-2009-links.json",
     "./links/links-prontos/2010-2011-links.json",
     "./links/links-prontos/2011-2012-links.json",
-    "./links/links-prontos/2012-2013-links.json"
+    "./links/links-prontos/2012-2013-links.json",
+    "./links/links-prontos/2013-2014-links.json"
 ]
 
 nomes_arquivos = [
@@ -185,11 +186,11 @@ nomes_arquivos = [
     "2008-2009",
     "2010-2011",
     "2011-2012",
-    "2012-2013"
+    "2012-2013",
+    "2013-2014"
 ]
 
-for i in range(1):
-    i=4
-    isTesting = False
-    print(arquivos_links[i])
-    main(arquivos_links[i], nomes_arquivos[i], isTesting)
+i=5
+isTesting = False
+print(arquivos_links[i])
+main(arquivos_links[i], nomes_arquivos[i], isTesting, 36)

@@ -6,6 +6,7 @@ team_name_mapping = {
     'Franca': ['Franca', 'Sesi Franca'],
     'Bauru': ['Bauru', 'Bauru Basket'],
     'Basq. Cearense': ['Basq. Cearense', 'Fortaleza B. C. / CFO'],
+    'Macaé': ['Macaé Basquete', 'Macaé']
 }
 
 
@@ -69,27 +70,32 @@ partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
                   "./dados/jogos/2009-2010/2009-2010-partidas-atualizado.csv",
                   "./dados/jogos/2010-2011/2010-2011-partidas.csv",
                   "./dados/jogos/2011-2012/2011-2012-partidas.csv",
-                  "./dados/jogos/2012-2013/2012-2013-partidas.csv"]
+                  "./dados/jogos/2012-2013/2012-2013-partidas.csv",
+                  "./dados/jogos/2013-2014/2013-2014-partidas.csv"]
 
 estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2009-2010",
                      "./dados/estatisticas/2010-2011",
                      "./dados/estatisticas/2011-2012",
-                     "./dados/estatisticas/2012-2013",]
+                     "./dados/estatisticas/2012-2013",
+                     "./dados/estatisticas/2013-2014"]
 
 temporadas = ["2008-2009",
               "2009-2010",
               "2010-2011",
               "2011-2012",
-              "2012-2013"]
+              "2012-2013",
+              "2013-2014"]
+
 
 output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2009-2010-combined.json',
                 './dados/resultados/2010-2011-combined.json',
                 './dados/resultados/2011-2012-combined.json',
-                './dados/resultados/2012-2013-combined.json'
+                './dados/resultados/2012-2013-combined.json',
+                './dados/resultados/2013-2014-combined.json'
                 ]
 
 #for i in range (2):
-main(partidas_paths[4], estatisticas_dirs[4], temporadas[4], output_paths[4])
+main(partidas_paths[5], estatisticas_dirs[5], temporadas[5], output_paths[5])
 
