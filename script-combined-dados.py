@@ -7,7 +7,9 @@ team_name_mapping = {
     'Bauru': ['Bauru', 'Bauru Basket'],
     'Basq. Cearense': ['Basq. Cearense', 'Fortaleza B. C. / CFO'],
     'Macaé': ['Macaé Basquete', 'Macaé'],
-    'Caxias do Sul': ['Caxias do Sul Basquete', 'Caxias do Sul']
+    'Caxias do Sul': ['Caxias do Sul Basquete', 'Caxias do Sul'],
+    'Vasco da Gama': ['R10 Score Vasco da Gama', 'Vasco da Gama'],
+    'Campo Mourão': [ 'VipTech CMB', 'Campo Mourão']
 }
 
 
@@ -74,7 +76,8 @@ partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
                   "./dados/jogos/2012-2013/2012-2013-partidas.csv",
                   "./dados/jogos/2013-2014/2013-2014-partidas.csv",
                   "./dados/jogos/2014-2015/2014-2015-partidas.csv",
-                  "./dados/jogos/2015-2016/2015-2016-partidas.csv"]
+                  "./dados/jogos/2015-2016/2015-2016-partidas.csv",
+                  "./dados/jogos/2016-2017/2016-2017-partidas.csv"]
 
 estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2009-2010",
@@ -83,7 +86,8 @@ estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2012-2013",
                      "./dados/estatisticas/2013-2014",
                      "./dados/estatisticas/2014-2015",
-                     "./dados/estatisticas/2015-2016"]
+                     "./dados/estatisticas/2015-2016",
+                     "./dados/estatisticas/2016-2017"]
 
 temporadas = ["2008-2009",
               "2009-2010",
@@ -92,7 +96,8 @@ temporadas = ["2008-2009",
               "2012-2013",
               "2013-2014",
               "2014-2015",
-              "2015-2016"]
+              "2015-2016",
+              "2016-2017"]
 
 
 output_paths = ['./dados/resultados/2008-2009-combined.json',
@@ -102,9 +107,10 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2012-2013-combined.json',
                 './dados/resultados/2013-2014-combined.json',
                 './dados/resultados/2014-2015-combined.json',
-                './dados/resultados/2015-2016-combined.json'
+                './dados/resultados/2015-2016-combined.json',
+                './dados/resultados/2016-2017-combined.json'
                 ]
 
 #for i in range (2):
-main(partidas_paths[7], estatisticas_dirs[7], temporadas[7], output_paths[7])
+main(partidas_paths[8], estatisticas_dirs[8], temporadas[8], output_paths[8])
 

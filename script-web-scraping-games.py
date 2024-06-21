@@ -49,10 +49,10 @@ def extrair_dados(html_content, rounds_totais):
             round_number_int = int(round_number) if round_number.isdigit() else 0
 
             # Ajustar o número da rodada para rodadas a partir de 16
-            if round_number_int >= ((rounds_totais // 2 ) + 1):
-                adjusted_round_number = str(round_number_int - (rounds_totais // 2))
-            else:
-                adjusted_round_number = round_number
+            # if round_number_int >= ((rounds_totais // 2 ) + 1):
+            #     adjusted_round_number = str(round_number_int - (rounds_totais // 2))
+            # else:
+            adjusted_round_number = str(round_number)
             
             phase_text = cells[10].text.strip().lower()
             
@@ -188,7 +188,8 @@ arquivos_links = ["./links/links-games/2008-2009-links-games.json",
                   "./links/links-games/2012-2013-links-games.json",
                   "./links/links-games/2013-2014-links-games.json",
                   "./links/links-games/2014-2015-links-games.json",
-                  "./links/links-games/2015-2016-links-games.json"
+                  "./links/links-games/2015-2016-links-games.json",
+                  "./links/links-games/2016-2017-links-games.json"
                   ]
 
 nomes_arquivos =    [   "2008-2009",
@@ -198,8 +199,9 @@ nomes_arquivos =    [   "2008-2009",
                         "2012-2013",
                         "2013-2014",
                         "2014-2015",
-                        "2015-2016"
+                        "2015-2016",
+                        "2016-2017"
                     ]
 
 #for i in range (5):
-main(arquivos_links[7], nomes_arquivos[7], 30)
+main(arquivos_links[8], nomes_arquivos[8], 30)
