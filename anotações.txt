@@ -42,8 +42,58 @@
 
 2018-2019
     season_id = 47
-    Rounds totais = ? (21 semanas)
+    Rounds totais = ? (21 semanas) (round virada 9)
     stage 1 - 1-9
     stage 2 - 10-21
 
     Dados playoffs - funcionando
+    True, False, 21, 9
+
+2019-2020
+    season_id = 54
+    Rounds totais = ? (20 semanas) (round virada 11)
+    stage 1 - 1-11
+    stage 2 - 12-20
+
+    Dados playoffs - parada por conta da pandemia
+    True, False, 20, 11
+
+2020-2021
+    season_id = 59
+    Rounds totais = 19 (round virada 10)
+    stage 1 - 1-10
+    stage 2 - 11-19
+
+    Dados playoffs - funcionando
+    True, False, 19, 10
+
+2021-2022
+    season_id = 63
+    Rounds totais = 23 (round virada 12)
+    stage 1 - 1-12
+    stage 2 - 13-23
+
+    Dados playoffs - funcionando
+    True, False, 23, 12
+
+2022-2023
+    season_id = 71
+    Rounds totais = 22 (round virada 12)
+    stage 1 - 1-12
+    stage 2 - 13-22
+
+    Dados playoffs - funcionando
+    True, False, 22, 12
+
+    round-12 stage-2 tem um jogo (inserir na mão os links para nao precisar alterar o algoritmo)
+
+2023-2024
+    season_id = 80
+    Rounds totais = 24 (round virada 12)
+    stage 1 - 1-12
+    stage 2 - 13-22
+
+    Dados playoffs - funcionando
+    True, False, 24, 12
+
+

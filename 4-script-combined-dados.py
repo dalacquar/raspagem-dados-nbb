@@ -9,7 +9,8 @@ team_name_mapping = {
     'Macaé': ['Macaé Basquete', 'Macaé'],
     'Caxias do Sul': ['Caxias do Sul Basquete', 'Caxias do Sul'],
     'Vasco da Gama': ['R10 Score Vasco da Gama', 'Vasco da Gama'],
-    'Campo Mourão': [ 'VipTech CMB', 'Campo Mourão']
+    'Campo Mourão': [ 'VipTech CMB', 'Campo Mourão'],
+    'Brasília': ['BRB/Brasília', 'Brasília']
 }
 
 
@@ -142,6 +143,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2023-2024-combined.json'
                 ]
 
-#for i in range (2):
-main(partidas_paths[8], estatisticas_dirs[8], temporadas[8], output_paths[8])
-
+i=10
+main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])

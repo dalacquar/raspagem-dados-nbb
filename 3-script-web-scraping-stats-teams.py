@@ -117,7 +117,7 @@ def remover_colunas_duplicadas(dados):
 
     return dados_sem_duplicatas
 
-def main(arquivo_temporada, temporada, isTesting, rounds_totais):
+def main(arquivo_temporada, temporada, isTesting, rounds_totais, round_virada):
     dados = []
 
     flag_classificacao = 0
@@ -151,11 +151,14 @@ def main(arquivo_temporada, temporada, isTesting, rounds_totais):
         printar_dados(dados)
 
         rodada_num = int(rodada.split('-')[-1])
-        if ( 1 <= rodada_num <= rounds_totais // 2 ) and (flag_classificacao == 0):
+
+
+
+        if ( 1 <= rodada_num <= round_virada ) and (flag_classificacao == 0):
             etapa = 1
-        elif ((rounds_totais // 2) - 1) <= rodada_num <= rounds_totais:
+        elif (round_virada + 1) <= rodada_num <= rounds_totais:
             etapa = 2
-            rodada_num -= rounds_totais // 2
+            rodada_num = rodada_num - round_virada
             flag_classificacao = 1
         else:
             fase_map = {
@@ -212,7 +215,7 @@ nomes_arquivos = [
     "2023-2024"
 ]
 
-i=8
+i=10
 isTesting = False
 print(arquivos_links[i])
-main(arquivos_links[i], nomes_arquivos[i], isTesting, 30)
+main(arquivos_links[i], nomes_arquivos[i], isTesting, 21, 9)

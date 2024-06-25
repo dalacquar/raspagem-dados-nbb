@@ -14,7 +14,7 @@ def request_html(url):
         print("Erro na solicitação HTTP:", e)
         return None
 
-def extrair_dados(html_content, rounds_totais):
+def extrair_dados(html_content, rounds_totais, round_virada):
     if html_content is None:
         return None
 
@@ -48,11 +48,11 @@ def extrair_dados(html_content, rounds_totais):
             round_number = ''.join(filter(str.isdigit, raw_round_number))
             round_number_int = int(round_number) if round_number.isdigit() else 0
 
-            # Ajustar o número da rodada para rodadas a partir de 16
-            # if round_number_int >= ((rounds_totais // 2 ) + 1):
-            #     adjusted_round_number = str(round_number_int - (rounds_totais // 2))
-            # else:
-            adjusted_round_number = str(round_number)
+            # Ajustar o número da rodada para rodadas a partir do round_virada
+            if round_number_int > (round_virada) :
+                adjusted_round_number = str(round_number_int - (round_virada))
+            else:
+                adjusted_round_number = str(round_number)
             
             phase_text = cells[10].text.strip().lower()
             
@@ -95,7 +95,7 @@ def escrever_csv(dados, nome_arquivo):
     except Exception as e:
         print(f"Erro ao escrever arquivo CSV: {e}")
 
-def realizar_scrap(url, rounds_totais):
+def realizar_scrap(url, rounds_totais, round_virada):
     html_content = None
     while html_content is None:
         start_time = time.time()
@@ -108,7 +108,7 @@ def realizar_scrap(url, rounds_totais):
             time.sleep(5)
             
     start_time = time.time()
-    dados_extraidos = extrair_dados(html_content, rounds_totais)
+    dados_extraidos = extrair_dados(html_content, rounds_totais, round_virada)
     end_time = time.time()
     print("Tempo para extrair os dados:", end_time - start_time, "segundos\n")
 
@@ -161,7 +161,7 @@ def remover_colunas_duplicadas(dados):
 
     return dados_sem_duplicatas
 
-def main(arquivo_temporada, temporada, rounds_totais):
+def main(arquivo_temporada, temporada, rounds_totais, round_virada):
 
     dados = []
 
@@ -171,7 +171,7 @@ def main(arquivo_temporada, temporada, rounds_totais):
     for rodada, links in dados_rodadas.items():
         for dado, link in links.items():
             print(f"Link: {link}")
-            dados = realizar_scrap(link, rounds_totais) 
+            dados = realizar_scrap(link, rounds_totais, round_virada) 
             
             printar_dados(dados)
             print("\n")
@@ -218,4 +218,4 @@ nomes_arquivos =    [   "2008-2009", #0
                     ]
 
 #for i in range (5):
-main(arquivos_links[8], nomes_arquivos[8], 30)
+main(arquivos_links[10], nomes_arquivos[10], 21, 9)

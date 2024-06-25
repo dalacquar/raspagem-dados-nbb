@@ -36,11 +36,6 @@ def insert_teams_to_db(teams, db_config):
     cursor.close()
     connection.close()
 
-# Lista de caminhos para as pastas que contêm os arquivos CSV
-folder_paths = [
-    './dados/estatisticas/2016-2017',
-]
-
 # Configurações de conexão ao banco de dados MySQL
 db_config = {
     'user': 'root',
@@ -49,6 +44,11 @@ db_config = {
     'database': 'mydb',
     'raise_on_warnings': True
 }
+
+# Lista de caminhos para as pastas que contêm os arquivos CSV
+folder_paths = [
+    './dados/estatisticas/2018-2019',
+]
 
 # Obtém os nomes das equipes a partir de múltiplas pastas e insere no banco de dados
 teams = get_teams_from_multiple_folders(folder_paths)
