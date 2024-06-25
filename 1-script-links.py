@@ -1,6 +1,6 @@
 import json
 
-def script_links (arq_base, arq_saida, isConsecutivo, rounds_totais):
+def script_links (arq_base, arq_saida, isConsecutivo, rounds_totais, virada):
     # Carregar os links base do arquivo JSON
     with open(arq_base, 'r') as file:
         data = json.load(file)
@@ -16,15 +16,6 @@ def script_links (arq_base, arq_saida, isConsecutivo, rounds_totais):
                 if(isConsecutivo):
                     if(stage == 2):
                         continue
-                        rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
-                        rodada_data = {}
-
-                        for key, value in data.items():
-                            modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(cont_rodada)}")
-                            rodada_data[key] = modified_link
-
-                            new_data[rodada_key] = rodada_data
-                        cont_rodada += 1
                     else :
                         rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
                         rodada_data = {}
@@ -36,26 +27,15 @@ def script_links (arq_base, arq_saida, isConsecutivo, rounds_totais):
                             new_data[rodada_key] = rodada_data
                         cont_rodada += 1
                 else:
-                    if(stage == 2):
-                        rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
-                        rodada_data = {}
+                    rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
+                    rodada_data = {}
 
-                        for key, value in data.items():
-                            modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(rodada)}")
-                            rodada_data[key] = modified_link
+                    for key, value in data.items():
+                        modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(rodada)}")
+                        rodada_data[key] = modified_link
 
-                            new_data[rodada_key] = rodada_data
-                        cont_rodada += 1
-                    else :
-                        rodada_key = f"rodada-{str(cont_rodada).zfill(2)}"
-                        rodada_data = {}
-
-                        for key, value in data.items():
-                            modified_link = value.replace("stage%5B%5D=1&round%5B%5D=1", f"stage%5B%5D={stage}&round%5B%5D={(rodada)}")
-                            rodada_data[key] = modified_link
-
-                            new_data[rodada_key] = rodada_data
-                        cont_rodada += 1
+                        new_data[rodada_key] = rodada_data
+                    cont_rodada += 1
         else : #playoffs
             cont_rodada = 1
             for rodada in range(1, 6):
@@ -91,6 +71,13 @@ links_base =    [       "./links/links-base/2008-2009-links-base.json",
                         "./links/links-base/2014-2015-links-base.json",
                         "./links/links-base/2015-2016-links-base.json",
                         "./links/links-base/2016-2017-links-base.json"
+                        "./links/links-base/2017-2018-links-base.json"
+                        "./links/links-base/2018-2019-links-base.json"
+                        "./links/links-base/2019-2020-links-base.json"
+                        "./links/links-base/2020-2021-links-base.json"
+                        "./links/links-base/2021-2022-links-base.json"
+                        "./links/links-base/2022-2023-links-base.json"
+                        "./links/links-base/2023-2024-links-base.json"
                     ]
 
 
@@ -102,7 +89,14 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2013-2014-links.json",
                         "./links/links-prontos/2014-2015-links.json",
                         "./links/links-prontos/2015-2016-links.json",
-                        "./links/links-prontos/2016-2017-links.json"
+                        "./links/links-prontos/2016-2017-links.json",
+                        "./links/links-prontos/2017-2018-links.json",
+                        "./links/links-prontos/2018-2019-links.json",
+                        "./links/links-prontos/2019-2020-links.json",
+                        "./links/links-prontos/2020-2021-links.json",
+                        "./links/links-prontos/2021-2022-links.json",
+                        "./links/links-prontos/2022-2023-links.json",
+                        "./links/links-prontos/2023-2024-links.json"
                     ]
 
-script_links("./links/links-base/2016-2017-links-base.json", "./links/links-prontos/2016-2017-links.json", True, 30)
+script_links("./links/links-prontos/2018-2019-links.json", "./links/links-prontos/2018-2019-links.json", False, 30, 1)

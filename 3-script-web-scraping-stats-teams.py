@@ -181,7 +181,15 @@ arquivos_links = [
     "./links/links-prontos/2013-2014-links.json",
     "./links/links-prontos/2014-2015-links.json",
     "./links/links-prontos/2015-2016-links.json",
-    "./links/links-prontos/2016-2017-links.json"
+    "./links/links-prontos/2016-2017-links.json",
+    "./links/links-prontos/2017-2017-links.json",
+    "./links/links-prontos/2018-2019-links.json",
+    "./links/links-prontos/2019-2020-links.json",
+    "./links/links-prontos/2020-2021-links.json",
+    "./links/links-prontos/2021-2022-links.json",
+    "./links/links-prontos/2022-2023-links.json",
+    "./links/links-prontos/2023-2024-links.json"
+
 
 ]
 
@@ -194,7 +202,14 @@ nomes_arquivos = [
     "2013-2014",
     "2014-2015",
     "2015-2016",
-    "2016-2017"
+    "2016-2017",
+    "2017-2018",
+    "2018-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023",
+    "2023-2024"
 ]
 
 i=8

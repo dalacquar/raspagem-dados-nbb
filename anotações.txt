@@ -30,3 +30,20 @@
     stage 1 - 1-30
 
     Dados playoffs - funcionando
+
+
+2017-2018 (style: display:none, mas da pra pegar a rodada ainda - trabalhar depois)
+    season_id = 41
+    Rounds totais = ?
+    stage ?
+
+    Dados playoffs - funcionando
+
+
+2018-2019
+    season_id = 47
+    Rounds totais = ? (21 semanas)
+    stage 1 - 1-9
+    stage 2 - 10-21
+
+    Dados playoffs - funcionando

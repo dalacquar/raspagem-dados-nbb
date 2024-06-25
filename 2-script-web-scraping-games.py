@@ -189,18 +189,32 @@ arquivos_links = ["./links/links-games/2008-2009-links-games.json",
                   "./links/links-games/2013-2014-links-games.json",
                   "./links/links-games/2014-2015-links-games.json",
                   "./links/links-games/2015-2016-links-games.json",
-                  "./links/links-games/2016-2017-links-games.json"
+                  "./links/links-games/2016-2017-links-games.json",
+                  "./links/links-games/2017-2018-links-games.json",
+                  "./links/links-games/2018-2019-links-games.json",
+                  "./links/links-games/2019-2020-links-games.json",
+                  "./links/links-games/2020-2021-links-games.json",
+                  "./links/links-games/2021-2022-links-games.json",
+                  "./links/links-games/2022-2023-links-games.json",
+                  "./links/links-games/2023-2024-links-games.json"
                   ]
 
-nomes_arquivos =    [   "2008-2009",
-                        "2009-2010",
-                        "2010-2011",
-                        "2011-2012",
-                        "2012-2013",
-                        "2013-2014",
-                        "2014-2015",
-                        "2015-2016",
-                        "2016-2017"
+nomes_arquivos =    [   "2008-2009", #0
+                        "2009-2010", #1
+                        "2010-2011", #2
+                        "2011-2012", #3
+                        "2012-2013", #4
+                        "2013-2014", #5
+                        "2014-2015", #6
+                        "2015-2016", #7
+                        "2016-2017", #8
+                        "2017-2018", #9
+                        "2018-2019", #10
+                        "2019-2020", #11
+                        "2020-2021", #12
+                        "2021-2022", #13
+                        "2022-2023", #14
+                        "2023-2024"  #15
                     ]
 
 #for i in range (5):

@@ -77,7 +77,15 @@ partidas_paths = ["./dados/jogos/2008-2009/2008-2009-partidas.csv",
                   "./dados/jogos/2013-2014/2013-2014-partidas.csv",
                   "./dados/jogos/2014-2015/2014-2015-partidas.csv",
                   "./dados/jogos/2015-2016/2015-2016-partidas.csv",
-                  "./dados/jogos/2016-2017/2016-2017-partidas.csv"]
+                  "./dados/jogos/2016-2017/2016-2017-partidas.csv",
+                  "./dados/jogos/2017-2018/2017-2018-partidas.csv",
+                  "./dados/jogos/2018-2019/2018-2019-partidas.csv",
+                  "./dados/jogos/2019-2020/2019-2020-partidas.csv",
+                  "./dados/jogos/2020-2021/2020-2021-partidas.csv",
+                  "./dados/jogos/2021-2022/2021-2022-partidas.csv",
+                  "./dados/jogos/2022-2023/2022-2023-partidas.csv",
+                  "./dados/jogos/2023-2024/2023-2024-partidas.csv"
+                  ]
 
 estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2009-2010",
@@ -87,7 +95,15 @@ estatisticas_dirs = ["./dados/estatisticas/2008-2009",
                      "./dados/estatisticas/2013-2014",
                      "./dados/estatisticas/2014-2015",
                      "./dados/estatisticas/2015-2016",
-                     "./dados/estatisticas/2016-2017"]
+                     "./dados/estatisticas/2016-2017",
+                     "./dados/estatisticas/2017-2018",
+                     "./dados/estatisticas/2018-2019",
+                     "./dados/estatisticas/2019-2020",
+                     "./dados/estatisticas/2020-2021",
+                     "./dados/estatisticas/2021-2022",
+                     "./dados/estatisticas/2022-2023",
+                     "./dados/estatisticas/2023-2024"
+                     ]
 
 temporadas = ["2008-2009",
               "2009-2010",
@@ -97,7 +113,15 @@ temporadas = ["2008-2009",
               "2013-2014",
               "2014-2015",
               "2015-2016",
-              "2016-2017"]
+              "2016-2017",
+              "2017-2018",
+              "2018-2019",
+              "2019-2020",
+              "2020-2021",
+              "2021-2022",
+              "2022-2023",
+              "2023-2024"
+              ]
 
 
 output_paths = ['./dados/resultados/2008-2009-combined.json',
@@ -108,7 +132,14 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2013-2014-combined.json',
                 './dados/resultados/2014-2015-combined.json',
                 './dados/resultados/2015-2016-combined.json',
-                './dados/resultados/2016-2017-combined.json'
+                './dados/resultados/2016-2017-combined.json',
+                './dados/resultados/2017-2018-combined.json',
+                './dados/resultados/2018-2019-combined.json',
+                './dados/resultados/2019-2020-combined.json',
+                './dados/resultados/2020-2021-combined.json',
+                './dados/resultados/2021-2022-combined.json',
+                './dados/resultados/2022-2023-combined.json',
+                './dados/resultados/2023-2024-combined.json'
                 ]
 
 #for i in range (2):
