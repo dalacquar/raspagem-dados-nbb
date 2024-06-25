@@ -115,4 +115,4 @@ links_prontos =    [    "./links/links-prontos/2008-2009-links.json",
                         "./links/links-prontos/2023-2024-links.json"
                     ]
 
-script_links("./links/links-base/2018-2019-links-base.json", "./links/links-prontos/2018-2019-links.json", True, False, 21, 9)
+script_links("./links/links-base/2019-2020-links-base.json", "./links/links-prontos/2019-2020-links.json", True, False, 20, 11)

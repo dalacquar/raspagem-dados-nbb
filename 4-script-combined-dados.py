@@ -143,5 +143,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2023-2024-combined.json'
                 ]
 
-i=10
+i=11
 main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])
