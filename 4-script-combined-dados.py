@@ -10,7 +10,10 @@ team_name_mapping = {
     'Caxias do Sul': ['Caxias do Sul Basquete', 'Caxias do Sul'],
     'Vasco da Gama': ['R10 Score Vasco da Gama', 'Vasco da Gama'],
     'Campo Mourão': [ 'VipTech CMB', 'Campo Mourão'],
-    'Brasília': ['BRB/Brasília', 'Brasília']
+    'Brasília': ['BRB/Brasília', 'Brasília'],
+    'Fortaleza B. C.': ['Fortaleza B. C. / CFO', 'Fortaleza B. C.'],
+    'Cerrado Basquete': ['Cerrado', 'Cerrado Basquete'],
+    'KTO/Caxias do Sul': ['Caxias do Sul Basquete', 'KTO/Caxias do Sul']
 }
 
 
@@ -143,5 +146,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2023-2024-combined.json'
                 ]
 
-i=11
+i=12
 main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])

@@ -215,7 +215,7 @@ nomes_arquivos = [
     "2023-2024"
 ]
 
-i=11
+i=12
 isTesting = False
 print(arquivos_links[i])
-main(arquivos_links[i], nomes_arquivos[i], isTesting, 20, 11)
+main(arquivos_links[i], nomes_arquivos[i], isTesting, 19, 10)
