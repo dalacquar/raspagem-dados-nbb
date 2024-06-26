@@ -13,7 +13,10 @@ team_name_mapping = {
     'Brasília': ['BRB/Brasília', 'Brasília'],
     'Fortaleza B. C.': ['Fortaleza B. C. / CFO', 'Fortaleza B. C.'],
     'Cerrado Basquete': ['Cerrado', 'Cerrado Basquete'],
-    'KTO/Caxias do Sul': ['Caxias do Sul Basquete', 'KTO/Caxias do Sul']
+    'KTO/Caxias do Sul': ['Caxias do Sul Basquete', 'KTO/Caxias do Sul'],
+    'Luvix/União Corinthians': ['União Corinthians' ,'Luvix/União Corinthians'],
+    '123 Minas': ['Minas', '123 Minas']
+    
 }
 
 
@@ -146,5 +149,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2023-2024-combined.json'
                 ]
 
-i=12
+i=13
 main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])

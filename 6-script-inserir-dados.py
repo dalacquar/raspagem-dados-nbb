@@ -21,7 +21,9 @@ team_name_mapping = {
     'Vasco da Gama': 'R10 Score Vasco da Gama',
     'Fortaleza B. C.': 'Fortaleza B. C. / CFO',
     'Cerrado Basquete': 'Cerrado',
-    'KTO/Caxias do Sul': 'Caxias do Sul Basquete'
+    'KTO/Caxias do Sul': 'Caxias do Sul Basquete',
+    'Luvix/União Corinthians': 'União Corinthians',
+    '123 Minas': 'Minas'
 }
 
 def convert_date(date_str):
@@ -69,7 +71,7 @@ def main(file_path, temporada):
     data = read_json(file_path)
     insert_data(data, temporada)
 
-temporada = '2020-2021'
-file_path = './dados/resultados/2020-2021-combined.json'
+temporada = '2021-2022'
+file_path = './dados/resultados/2021-2022-combined.json'
 
 main(file_path, temporada)
