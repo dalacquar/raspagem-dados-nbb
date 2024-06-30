@@ -15,7 +15,8 @@ team_name_mapping = {
     'Cerrado Basquete': ['Cerrado', 'Cerrado Basquete'],
     'KTO/Caxias do Sul': ['Caxias do Sul Basquete', 'KTO/Caxias do Sul'],
     'Luvix/União Corinthians': ['União Corinthians' ,'Luvix/União Corinthians'],
-    '123 Minas': ['Minas', '123 Minas']
+    '123 Minas': ['Minas', '123 Minas'],
+    'Oscar São José Basketball': ['São José', 'Coop/São José Basketball'],
     
 }
 
@@ -51,7 +52,6 @@ def ler_dados(partidas_path, estatisticas_dir, temporada):
         equipe_visitante = partida['Equipe_Visitante']
         rodada = partida['Rodada']
         etapa = partida['Etapa']
-    
         estatisticas_file = f"{estatisticas_dir}/{temporada}-{etapa:02d}-{rodada:02d}.csv"
 
         casa_stats = ler_estatisticas(estatisticas_file, equipe_casa)
@@ -149,5 +149,5 @@ output_paths = ['./dados/resultados/2008-2009-combined.json',
                 './dados/resultados/2023-2024-combined.json'
                 ]
 
-i=13
+i=14
 main(partidas_paths[i], estatisticas_dirs[i], temporadas[i], output_paths[i])

@@ -47,7 +47,7 @@ db_config = {
 
 # Lista de caminhos para as pastas que contêm os arquivos CSV
 folder_paths = [
-    './dados/estatisticas/2021-2022',
+    './dados/estatisticas/2023-2024',
 ]
 
 # Obtém os nomes das equipes a partir de múltiplas pastas e insere no banco de dados

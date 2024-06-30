@@ -11,7 +11,7 @@ db_config = {
 }
 
 team_name_mapping = {
-    'São José': 'Coop/São José Basketball',
+    'Oscar São José Basketball': 'Coop/São José Basketball',
     'Franca': 'Sesi Franca',
     'Bauru': 'Bauru Basket',
     'Basq. Cearense': 'Fortaleza B. C. / CFO',
@@ -71,7 +71,7 @@ def main(file_path, temporada):
     data = read_json(file_path)
     insert_data(data, temporada)
 
-temporada = '2021-2022'
-file_path = './dados/resultados/2021-2022-combined.json'
+temporada = '2023-2024'
+file_path = './dados/resultados/2023-2024-combined.json'
 
 main(file_path, temporada)
