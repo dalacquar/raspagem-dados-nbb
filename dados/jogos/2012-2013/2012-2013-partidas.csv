@@ -1,0 +1,351 @@
+﻿Data,Equipe_Casa,Pontos_Casa,Pontos_Visitante,Equipe_Visitante,Rodada,Etapa
+23/11/2012,Minas,77,70,Tijuca,1,1
+24/11/2012,Franca,62,76,Brasília,1,1
+24/11/2012,São José,62,82,Bauru,1,1
+24/11/2012,Mogi,71,59,L. Sorocabana,1,1
+24/11/2012,Paulistano,86,82,Limeira,1,1
+24/11/2012,Pinheiros,88,87,Joinville,1,1
+24/11/2012,Palmeiras,95,86,Suzano,1,1
+24/11/2012,Uberlândia,84,71,Basq. Cearense,1,1
+24/11/2012,Espírito Santo,61,82,Flamengo,1,1
+26/11/2012,Franca,90,68,Basq. Cearense,2,1
+26/11/2012,Mogi,73,80,Bauru,2,1
+26/11/2012,Espírito Santo,58,56,Tijuca,2,1
+26/11/2012,Paulistano,95,71,Joinville,2,1
+27/11/2012,São José,77,73,L. Sorocabana,2,1
+29/11/2012,Tijuca,76,67,Mogi,3,1
+29/11/2012,Palmeiras,79,86,Paulistano,3,1
+29/11/2012,Joinville,73,55,Minas,3,1
+29/11/2012,Limeira,88,87,Espírito Santo,3,1
+29/11/2012,L. Sorocabana,59,80,Franca,3,1
+29/11/2012,Bauru,81,82,Uberlândia,3,1
+01/12/2012,Joinville,99,80,Espírito Santo,4,1
+01/12/2012,L. Sorocabana,74,63,Uberlândia,4,1
+01/12/2012,Paulistano,84,72,Suzano,4,1
+01/12/2012,Bauru,67,74,Franca,4,1
+01/12/2012,Limeira,85,87,Minas,4,1
+06/12/2012,Franca,101,75,Tijuca,5,1
+06/12/2012,São José,84,76,Limeira,5,1
+06/12/2012,Mogi,68,70,Joinville,5,1
+06/12/2012,Espírito Santo,68,59,Palmeiras,5,1
+06/12/2012,Minas,100,78,Suzano,5,1
+06/12/2012,Paulistano,89,88,Pinheiros,5,1
+06/12/2012,Basq. Cearense,71,62,L. Sorocabana,5,1
+08/12/2012,Mogi,72,89,Limeira,6,1
+08/12/2012,São José,83,76,Joinville,6,1
+08/12/2012,Minas,89,77,Palmeiras,6,1
+08/12/2012,Basq. Cearense,83,82,Bauru,6,1
+08/12/2012,Uberlândia,71,57,Tijuca,6,1
+08/12/2012,Espírito Santo,86,89,Suzano,6,1
+10/12/2012,Pinheiros,102,100,Limeira,2,1
+10/12/2012,Uberlândia,95,89,Brasília,2,1
+10/12/2012,Franca,77,82,Flamengo,6,1
+13/12/2012,Tijuca,69,83,Basq. Cearense,7,1
+13/12/2012,Pinheiros,92,90,Espírito Santo,7,1
+13/12/2012,Paulistano,92,78,Minas,7,1
+13/12/2012,Suzano,78,77,Mogi,7,1
+13/12/2012,Palmeiras,75,66,São José,7,1
+13/12/2012,Joinville,50,59,Franca,7,1
+13/12/2012,Limeira,77,87,Uberlândia,7,1
+13/12/2012,L. Sorocabana,76,90,Bauru,7,1
+13/12/2012,Flamengo,102,88,Brasília,7,1
+15/12/2012,Paulistano,80,90,Espírito Santo,8,1
+15/12/2012,Pinheiros,91,77,Minas,8,1
+15/12/2012,Tijuca,53,73,Brasília,8,1
+15/12/2012,Suzano,80,100,São José,8,1
+15/12/2012,Joinville,71,62,Uberlândia,8,1
+15/12/2012,Mogi,78,75,Palmeiras,8,1
+15/12/2012,Limeira,72,58,Franca,8,1
+15/12/2012,Flamengo,86,61,Basq. Cearense,8,1
+17/12/2012,Tijuca,74,79,São José,4,1
+17/12/2012,Suzano,72,91,Pinheiros,3,1
+17/12/2012,Flamengo,70,64,Mogi,4,1
+19/12/2012,Uberlândia,89,73,Palmeiras,9,1
+20/12/2012,Brasília,97,89,Limeira,9,1
+20/12/2012,L. Sorocabana,59,87,Flamengo,9,1
+20/12/2012,Bauru,81,68,Tijuca,9,1
+20/12/2012,Franca,108,66,Suzano,9,1
+20/12/2012,São José,93,77,Pinheiros,9,1
+20/12/2012,Mogi,77,73,Paulistano,9,1
+20/12/2012,Espírito Santo,82,84,Minas,9,1
+20/12/2012,Basq. Cearense,78,62,Joinville,9,1
+22/12/2012,Brasília,94,83,Joinville,10,1
+22/12/2012,São José,68,76,Paulistano,10,1
+22/12/2012,L. Sorocabana,72,67,Tijuca,10,1
+22/12/2012,Bauru,97,102,Flamengo,10,1
+22/12/2012,Basq. Cearense,65,84,Limeira,10,1
+22/12/2012,Uberlândia,109,73,Suzano,10,1
+22/12/2012,Franca,82,61,Palmeiras,10,1
+22/12/2012,Mogi,76,95,Pinheiros,10,1
+05/01/2013,Paulistano,51,77,Franca,11,1
+05/01/2013,Tijuca,70,94,Flamengo,11,1
+05/01/2013,Minas,97,77,São José,11,1
+05/01/2013,Pinheiros,87,92,Uberlândia,11,1
+05/01/2013,Suzano,71,85,Basq. Cearense,11,1
+05/01/2013,Palmeiras,78,88,Brasília,11,1
+05/01/2013,Joinville,71,83,Bauru,11,1
+05/01/2013,Espírito Santo,92,85,Mogi,11,1
+05/01/2013,Limeira,85,66,L. Sorocabana,11,1
+07/01/2013,Pinheiros,97,82,Franca,12,1
+07/01/2013,Paulistano,76,88,Uberlândia,12,1
+07/01/2013,Espírito Santo,86,93,São José,12,1
+07/01/2013,Minas,84,86,Mogi,12,1
+07/01/2013,Suzano,81,92,Brasília,12,1
+07/01/2013,Palmeiras,81,86,Basq. Cearense,12,1
+07/01/2013,Joinville,86,93,L. Sorocabana,12,1
+07/01/2013,Limeira,82,84,Bauru,12,1
+10/01/2013,Tijuca,77,82,Limeira,13,1
+10/01/2013,Brasília,96,99,Pinheiros,13,1
+10/01/2013,Flamengo,94,67,Joinville,13,1
+10/01/2013,L. Sorocabana,93,73,Palmeiras,13,1
+10/01/2013,Bauru,85,44,Suzano,13,1
+10/01/2013,Uberlândia,88,86,Minas,13,1
+10/01/2013,Franca,96,86,Espírito Santo,13,1
+10/01/2013,São José,105,67,Mogi,13,1
+10/01/2013,Basq. Cearense,95,76,Paulistano,13,1
+12/01/2013,Tijuca,58,79,Joinville,14,1
+12/01/2013,Basq. Cearense,84,85,Pinheiros,14,1
+12/01/2013,Brasília,68,67,Paulistano,14,1
+12/01/2013,Flamengo,98,81,Limeira,14,1
+12/01/2013,L. Sorocabana,87,70,Suzano,14,1
+12/01/2013,Bauru,91,67,Palmeiras,14,1
+12/01/2013,Uberlândia,73,64,Espírito Santo,14,1
+12/01/2013,Franca,78,77,Minas,14,1
+14/01/2013,Flamengo,83,75,São José,3,1
+15/01/2013,Brasília,92,77,Basq. Cearense,3,1
+15/01/2013,Palmeiras,85,94,Pinheiros,4,1
+17/01/2013,Pinheiros,77,94,L. Sorocabana,15,1
+17/01/2013,São José,87,66,Franca,15,1
+17/01/2013,Mogi,83,81,Uberlândia,15,1
+17/01/2013,Espírito Santo,85,94,Basq. Cearense,15,1
+17/01/2013,Minas,86,90,Brasília,15,1
+17/01/2013,Paulistano,76,73,Bauru,15,1
+17/01/2013,Suzano,74,105,Flamengo,15,1
+17/01/2013,Palmeiras,77,79,Tijuca,15,1
+17/01/2013,Joinville,77,62,Limeira,15,1
+19/01/2013,Mogi,59,95,Franca,16,1
+19/01/2013,Paulistano,94,96,L. Sorocabana,16,1
+19/01/2013,Palmeiras,61,106,Flamengo,16,1
+19/01/2013,São José,80,76,Uberlândia,16,1
+19/01/2013,Minas,76,74,Basq. Cearense,16,1
+19/01/2013,Pinheiros,73,74,Bauru,16,1
+19/01/2013,Suzano,86,79,Tijuca,16,1
+19/01/2013,Espírito Santo,94,85,Brasília,16,1
+21/01/2013,Brasília,86,75,L. Sorocabana,6,1
+21/01/2013,Minas,90,105,Flamengo,2,1
+24/01/2013,Tijuca,64,73,Pinheiros,17,1
+24/01/2013,Brasília,94,67,Mogi,17,1
+24/01/2013,Joinville,75,60,Palmeiras,17,1
+24/01/2013,Limeira,96,65,Suzano,17,1
+24/01/2013,Flamengo,94,70,Paulistano,17,1
+24/01/2013,L. Sorocabana,82,84,Minas,17,1
+24/01/2013,Bauru,85,70,Espírito Santo,17,1
+24/01/2013,Uberlândia,91,87,Franca,17,1
+24/01/2013,Basq. Cearense,73,63,São José,17,1
+26/01/2013,Tijuca,52,74,Paulistano,18,1
+26/01/2013,Brasília,90,57,São José,18,1
+26/01/2013,Joinville,79,67,Suzano,18,1
+26/01/2013,Flamengo,102,85,Pinheiros,18,1
+26/01/2013,L. Sorocabana,82,76,Espírito Santo,18,1
+26/01/2013,Bauru,91,59,Minas,18,1
+26/01/2013,Limeira,75,65,Palmeiras,18,1
+26/01/2013,Basq. Cearense,71,74,Mogi,18,1
+28/01/2013,Brasília,80,60,Bauru,5,1
+28/01/2013,Uberlândia,78,87,Flamengo,5,1
+31/01/2013,Tijuca,65,75,Minas,1,2
+31/01/2013,Brasília,93,77,Franca,1,2
+31/01/2013,Bauru,87,82,São José,1,2
+31/01/2013,L. Sorocabana,81,74,Mogi,1,2
+31/01/2013,Limeira,89,68,Paulistano,1,2
+31/01/2013,Suzano,79,87,Palmeiras,1,2
+31/01/2013,Basq. Cearense,60,72,Uberlândia,1,2
+31/01/2013,Flamengo,96,77,Espírito Santo,1,2
+02/02/2013,Joinville,63,71,Paulistano,2,2
+02/02/2013,Brasília,102,80,Uberlândia,2,2
+02/02/2013,Tijuca,82,74,Espírito Santo,2,2
+02/02/2013,L. Sorocabana,66,65,São José,2,2
+02/02/2013,Bauru,87,84,Mogi,2,2
+02/02/2013,Basq. Cearense,87,88,Franca,2,2
+02/02/2013,Flamengo,90,77,Minas,2,2
+05/02/2013,Paulistano,83,69,Palmeiras,3,2
+05/02/2013,Espírito Santo,72,64,Limeira,3,2
+05/02/2013,Mogi,68,83,Tijuca,3,2
+05/02/2013,São José,82,84,Flamengo,3,2
+05/02/2013,Franca,85,64,L. Sorocabana,3,2
+05/02/2013,Uberlândia,94,83,Bauru,3,2
+05/02/2013,Minas,78,69,Joinville,3,2
+07/02/2013,Pinheiros,87,82,Palmeiras,4,2
+07/02/2013,Suzano,85,87,Paulistano,4,2
+07/02/2013,Espírito Santo,67,59,Joinville,4,2
+07/02/2013,Minas,81,61,Limeira,4,2
+07/02/2013,São José,81,65,Tijuca,4,2
+07/02/2013,Franca,80,82,Bauru,4,2
+07/02/2013,Uberlândia,84,81,L. Sorocabana,4,2
+14/02/2013,Tijuca,59,63,Franca,5,2
+14/02/2013,Pinheiros,88,86,Paulistano,5,2
+14/02/2013,L. Sorocabana,76,86,Basq. Cearense,5,2
+14/02/2013,Limeira,79,83,São José,5,2
+14/02/2013,Joinville,85,90,Mogi,5,2
+14/02/2013,Palmeiras,87,65,Espírito Santo,5,2
+14/02/2013,Suzano,76,97,Minas,5,2
+16/02/2013,Flamengo,86,91,Franca,6,2
+16/02/2013,L. Sorocabana,70,100,Brasília,6,2
+16/02/2013,Bauru,95,84,Basq. Cearense,6,2
+16/02/2013,Tijuca,63,83,Uberlândia,6,2
+16/02/2013,Joinville,79,93,São José,6,2
+16/02/2013,Palmeiras,96,87,Minas,6,2
+16/02/2013,Limeira,71,79,Mogi,6,2
+16/02/2013,Suzano,88,94,Espírito Santo,6,2
+17/02/2013,Pinheiros,91,65,Suzano,3,2
+18/02/2013,Bauru,79,90,Brasília,5,2
+18/02/2013,Flamengo,79,66,Uberlândia,5,2
+19/02/2013,São José,77,65,Palmeiras,7,2
+20/02/2013,Minas,109,114,Paulistano,7,2
+21/02/2013,Espírito Santo,74,78,Pinheiros,7,2
+21/02/2013,Mogi,86,65,Suzano,7,2
+21/02/2013,Franca,70,52,Joinville,7,2
+21/02/2013,Uberlândia,86,96,Limeira,7,2
+21/02/2013,Basq. Cearense,92,86,Tijuca,7,2
+21/02/2013,Bauru,85,94,L. Sorocabana,7,2
+21/02/2013,Brasília,82,70,Flamengo,7,2
+23/02/2013,Espírito Santo,120,126,Paulistano,8,2
+23/02/2013,Minas,101,75,Pinheiros,8,2
+23/02/2013,Uberlândia,99,73,Joinville,8,2
+23/02/2013,Basq. Cearense,82,101,Flamengo,8,2
+23/02/2013,Brasília,90,79,Tijuca,8,2
+23/02/2013,Palmeiras,86,77,Mogi,8,2
+23/02/2013,Franca,75,62,Limeira,8,2
+26/02/2013,Basq. Cearense,100,104,Brasília,3,2
+27/02/2013,Limeira,82,81,Pinheiros,2,2
+04/03/2013,São José,89,74,Suzano,8,2
+04/03/2013,Joinville,73,93,Pinheiros,1,2
+04/03/2013,Mogi,64,86,Flamengo,4,2
+07/03/2013,Tijuca,71,79,Bauru,9,2
+07/03/2013,Pinheiros,77,82,São José,9,2
+07/03/2013,Minas,95,72,Espírito Santo,9,2
+07/03/2013,Flamengo,102,64,L. Sorocabana,9,2
+07/03/2013,Limeira,77,80,Brasília,9,2
+07/03/2013,Joinville,94,71,Basq. Cearense,9,2
+07/03/2013,Palmeiras,112,104,Uberlândia,9,2
+07/03/2013,Suzano,75,71,Franca,9,2
+07/03/2013,Paulistano,67,77,Mogi,9,2
+09/03/2013,Flamengo,74,89,Bauru,10,2
+09/03/2013,Suzano,67,89,Uberlândia,10,2
+09/03/2013,Paulistano,80,68,São José,10,2
+09/03/2013,Tijuca,68,89,L. Sorocabana,10,2
+09/03/2013,Joinville,86,96,Brasília,10,2
+09/03/2013,Palmeiras,87,77,Franca,10,2
+09/03/2013,Pinheiros,118,82,Mogi,10,2
+09/03/2013,Limeira,90,72,Basq. Cearense,10,2
+14/03/2013,Mogi,76,85,Espírito Santo,11,2
+14/03/2013,São José,95,93,Minas,11,2
+14/03/2013,Franca,77,63,Paulistano,11,2
+14/03/2013,Bauru,114,91,Joinville,11,2
+14/03/2013,L. Sorocabana,81,79,Limeira,11,2
+14/03/2013,Brasília,99,81,Palmeiras,11,2
+16/03/2013,Brasília,94,82,Suzano,12,2
+16/03/2013,Bauru,83,82,Limeira,12,2
+16/03/2013,São José,106,87,Espírito Santo,12,2
+16/03/2013,Basq. Cearense,85,83,Palmeiras,12,2
+16/03/2013,L. Sorocabana,93,86,Joinville,12,2
+16/03/2013,Mogi,75,66,Minas,12,2
+16/03/2013,Uberlândia,86,75,Paulistano,12,2
+19/03/2013,Paulistano,77,82,Brasília,14,2
+19/03/2013,Mogi,60,93,São José,13,2
+21/03/2013,Joinville,72,99,Flamengo,13,2
+21/03/2013,Suzano,87,82,Bauru,13,2
+21/03/2013,Pinheiros,84,81,Tijuca,17,2
+21/03/2013,Palmeiras,85,77,L. Sorocabana,13,2
+21/03/2013,Paulistano,79,86,Basq. Cearense,13,2
+21/03/2013,Minas,67,90,Uberlândia,13,2
+23/03/2013,Limeira,75,80,Flamengo,14,2
+23/03/2013,Joinville,74,73,Tijuca,14,2
+23/03/2013,Palmeiras,89,83,Bauru,14,2
+23/03/2013,Pinheiros,87,69,Basq. Cearense,14,2
+23/03/2013,Minas,58,60,Franca,14,2
+23/03/2013,Suzano,79,90,L. Sorocabana,14,2
+23/03/2013,Espírito Santo,66,84,Uberlândia,14,2
+25/03/2013,Espírito Santo,64,87,Franca,13,2
+25/03/2013,Bauru,67,62,Pinheiros,16,2
+26/03/2013,L. Sorocabana,73,78,Paulistano,16,2
+26/03/2013,Suzano,80,81,Limeira,17,2
+28/03/2013,Uberlândia,75,68,Mogi,15,2
+28/03/2013,Pinheiros,92,89,Brasília,13,2
+28/03/2013,Flamengo,81,61,Palmeiras,16,2
+30/03/2013,São José,84,79,Brasília,18,2
+30/03/2013,Bauru,66,64,Paulistano,15,2
+30/03/2013,L. Sorocabana,81,87,Pinheiros,15,2
+30/03/2013,Tijuca,82,79,Palmeiras,15,2
+30/03/2013,Franca,79,71,Mogi,16,2
+31/03/2013,Basq. Cearense,96,61,Suzano,11,2
+01/04/2013,Pinheiros,93,91,Flamengo,18,2
+04/04/2013,Limeira,91,75,Tijuca,13,2
+04/04/2013,Palmeiras,92,86,Joinville,17,2
+04/04/2013,Paulistano,93,94,Flamengo,17,2
+04/04/2013,Minas,78,76,L. Sorocabana,17,2
+04/04/2013,Espírito Santo,79,88,Bauru,17,2
+04/04/2013,Mogi,91,96,Brasília,17,2
+04/04/2013,São José,76,87,Basq. Cearense,17,2
+04/04/2013,Uberlândia,91,87,Pinheiros,11,2
+06/04/2013,Franca,72,67,Pinheiros,12,2
+06/04/2013,Paulistano,84,65,Tijuca,18,2
+06/04/2013,Suzano,65,75,Joinville,18,2
+06/04/2013,Palmeiras,72,68,Limeira,18,2
+06/04/2013,Espírito Santo,88,82,L. Sorocabana,18,2
+06/04/2013,Mogi,80,86,Basq. Cearense,18,2
+07/04/2013,Brasília,81,86,Minas,15,2
+08/04/2013,Flamengo,107,103,Tijuca,11,2
+08/04/2013,Franca,76,53,São José,15,2
+08/04/2013,Limeira,93,86,Joinville,15,2
+09/04/2013,Basq. Cearense,88,52,Minas,16,2
+10/04/2013,Flamengo,89,56,Suzano,15,2
+10/04/2013,Uberlândia,88,63,São José,16,2
+11/04/2013,Tijuca,103,66,Suzano,16,2
+11/04/2013,Minas,64,77,Bauru,18,2
+12/04/2013,Franca,73,75,Uberlândia,17,2
+13/04/2013,Basq. Cearense,77,75,Espírito Santo,15,2
+16/04/2013,Paulistano,95,74,Basq. Cearense,1,3
+16/04/2013,Brasília,102,76,Espírito Santo,16,2
+16/04/2013,L. Sorocabana,69,72,Franca,1,3
+16/04/2013,Minas,70,68,São José,1,3
+18/04/2013,Limeira,88,74,Pinheiros,1,3
+19/04/2013,São José,61,60,Minas,2,3
+19/04/2013,Franca,74,55,L. Sorocabana,2,3
+19/04/2013,Basq. Cearense,79,66,Paulistano,2,3
+20/04/2013,São José,67,64,Minas,3,3
+20/04/2013,Franca,72,70,L. Sorocabana,3,3
+20/04/2013,Basq. Cearense,87,71,Paulistano,3,3
+21/04/2013,Pinheiros,82,95,Limeira,2,3
+22/04/2013,Pinheiros,93,82,Limeira,3,3
+22/04/2013,Minas,59,75,São José,4,3
+23/04/2013,Paulistano,89,85,Basq. Cearense,4,3
+24/04/2013,Limeira,85,86,Pinheiros,4,3
+26/04/2013,Basq. Cearense,68,69,Paulistano,5,3
+26/04/2013,Pinheiros,97,77,Limeira,5,3
+28/04/2013,Franca,72,69,Bauru,1,4
+29/04/2013,Pinheiros,67,86,Uberlândia,1,4
+29/04/2013,Paulistano,91,100,Flamengo,1,4
+29/04/2013,São José,90,76,Brasília,1,4
+01/05/2013,Brasília,100,79,São José,2,4
+01/05/2013,Bauru,86,79,Franca,2,4
+02/05/2013,Uberlândia,97,103,Pinheiros,2,4
+02/05/2013,Flamengo,80,76,Paulistano,2,4
+03/05/2013,Bauru,87,78,Franca,3,4
+03/05/2013,Brasília,91,76,São José,3,4
+04/05/2013,Uberlândia,70,91,Pinheiros,3,4
+04/05/2013,Flamengo,84,64,Paulistano,3,4
+06/05/2013,Franca,70,62,Bauru,4,4
+06/05/2013,São José,84,70,Brasília,4,4
+07/05/2013,Pinheiros,76,89,Uberlândia,4,4
+09/05/2013,Brasília,81,98,São José,5,4
+09/05/2013,Uberlândia,92,85,Pinheiros,5,4
+10/05/2013,Bauru,78,71,Franca,5,4
+13/05/2013,Bauru,75,89,Uberlândia,1,5
+14/05/2013,São José,80,72,Flamengo,1,5
+16/05/2013,Uberlândia,93,65,Bauru,2,5
+17/05/2013,Flamengo,100,84,São José,2,5
+18/05/2013,Uberlândia,80,77,Bauru,3,5
+19/05/2013,Flamengo,106,86,São José,3,5
+23/05/2013,São José,96,88,Flamengo,4,5
+25/05/2013,Flamengo,88,76,São José,5,5
+01/06/2013,Flamengo,77,70,Uberlândia,1,6

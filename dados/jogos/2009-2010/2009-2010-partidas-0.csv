@@ -1,0 +1,222 @@
+﻿Data,Equipe_Casa,Pontos_Casa,Pontos_Visitante,Equipe_Visitante,Rodada,Etapa
+01/11/2009,Pinheiros,92,98,Brasília,1,1
+01/11/2009,Franca,74,63,Assis,1,1
+01/11/2009,Paulistano,85,88,Minas,1,1
+01/11/2009,Flamengo,99,70,Espírito Santo,1,1
+01/11/2009,Joinville,108,76,Londrina,1,1
+01/11/2009,São José,84,72,Saldanha,1,1
+01/11/2009,Araraquara,76,69,Bauru,1,1
+02/11/2009,Paulistano,67,75,Brasília,2,1
+06/11/2009,Flamengo,109,72,Saldanha,2,1
+08/11/2009,Franca,88,69,Bauru,2,1
+08/11/2009,Pinheiros,78,70,Minas,2,1
+08/11/2009,São José,94,70,Espírito Santo,2,1
+08/11/2009,Araraquara,64,66,Assis,2,1
+15/11/2009,Joinville,72,69,Flamengo,3,1
+15/11/2009,Bauru,88,64,Assis,3,1
+15/11/2009,Saldanha,75,76,Pinheiros,3,1
+15/11/2009,Londrina,69,67,São José,3,1
+15/11/2009,Brasília,88,80,Franca,3,1
+15/11/2009,Espírito Santo,54,52,Paulistano,3,1
+20/11/2009,Londrina,86,84,Flamengo,4,1
+22/11/2009,Minas,101,106,Franca,4,1
+22/11/2009,Joinville,71,60,São José,4,1
+22/11/2009,Saldanha,74,71,Paulistano,4,1
+22/11/2009,Brasília,96,75,Araraquara,4,1
+22/11/2009,Espírito Santo,81,76,Pinheiros,4,1
+27/11/2009,Assis,73,81,Minas,5,1
+27/11/2009,Bauru,75,81,Brasília,5,1
+27/11/2009,Pinheiros,84,81,Londrina,5,1
+27/11/2009,Araraquara,67,69,Espírito Santo,5,1
+27/11/2009,Franca,95,81,Saldanha,5,1
+27/11/2009,São José,61,85,Flamengo,5,1
+29/11/2009,Paulistano,62,60,Londrina,6,1
+29/11/2009,Assis,84,91,Brasília,6,1
+29/11/2009,Pinheiros,88,91,Joinville,6,1
+29/11/2009,Franca,71,75,Espírito Santo,6,1
+29/11/2009,Bauru,78,83,Minas,6,1
+29/11/2009,Araraquara,81,65,Saldanha,6,1
+01/12/2009,Paulistano,85,73,Joinville,5,1
+06/12/2009,São José,81,64,Paulistano,7,1
+06/12/2009,Saldanha,68,66,Bauru,7,1
+06/12/2009,Joinville,67,61,Araraquara,7,1
+06/12/2009,Espírito Santo,66,67,Assis,7,1
+06/12/2009,Londrina,90,94,Franca,7,1
+06/12/2009,Flamengo,82,77,Pinheiros,7,1
+08/12/2009,Saldanha,71,91,Assis,8,1
+08/12/2009,Espírito Santo,69,67,Bauru,8,1
+12/12/2009,Minas,89,91,Brasília,7,1
+14/12/2009,Londrina,83,98,Brasília,12,1
+17/12/2009,Joinville,99,74,Brasília,11,1
+08/01/2010,Londrina,82,78,Araraquara,8,1
+15/01/2010,Bauru,85,74,Londrina,9,1
+15/01/2010,Franca,72,71,Flamengo,9,1
+15/01/2010,Pinheiros,104,85,Paulistano,9,1
+15/01/2010,Minas,102,85,Saldanha,9,1
+15/01/2010,Araraquara,80,56,São José,9,1
+15/01/2010,Brasília,88,75,Espírito Santo,9,1
+17/01/2010,Brasília,96,85,Saldanha,10,1
+17/01/2010,Araraquara,72,74,Flamengo,10,1
+17/01/2010,Minas,105,80,Espírito Santo,10,1
+17/01/2010,Assis,88,93,Londrina,10,1
+18/01/2010,Bauru,79,76,Joinville,10,1
+19/01/2010,Minas,91,85,Araraquara,3,1
+20/01/2010,Assis,92,90,Joinville,9,1
+22/01/2010,Pinheiros,93,84,Araraquara,11,1
+22/01/2010,Espírito Santo,76,60,Saldanha,11,1
+22/01/2010,Londrina,78,87,Minas,11,1
+22/01/2010,Flamengo,107,90,Bauru,11,1
+24/01/2010,Pinheiros,98,95,Franca,12,1
+24/01/2010,Flamengo,104,74,Assis,12,1
+24/01/2010,Joinville,67,84,Minas,12,1
+26/01/2010,Joinville,65,63,Franca,8,1
+29/01/2010,Franca,94,83,Araraquara,13,1
+29/01/2010,Espírito Santo,77,68,Londrina,13,1
+29/01/2010,Saldanha,63,82,Joinville,13,1
+29/01/2010,Brasília,85,64,São José,13,1
+29/01/2010,Bauru,106,73,Paulistano,13,1
+29/01/2010,Assis,94,92,Pinheiros,13,1
+29/01/2010,Minas,94,101,Flamengo,13,1
+31/01/2010,Minas,89,86,São José,14,1
+31/01/2010,Assis,83,85,Paulistano,14,1
+31/01/2010,Saldanha,64,68,Londrina,14,1
+31/01/2010,Bauru,103,83,Pinheiros,14,1
+31/01/2010,Espírito Santo,70,81,Joinville,14,1
+31/01/2010,Flamengo,73,81,Brasília,14,1
+02/02/2010,Flamengo,105,70,Paulistano,8,1
+05/02/2010,Espírito Santo,79,100,Flamengo,1,2
+05/02/2010,Minas,91,84,Paulistano,1,2
+05/02/2010,Assis,65,72,Franca,1,2
+05/02/2010,Bauru,63,59,Araraquara,1,2
+05/02/2010,Londrina,79,83,Joinville,1,2
+05/02/2010,Brasília,105,77,Pinheiros,1,2
+05/02/2010,Saldanha,60,90,São José,1,2
+07/02/2010,Espírito Santo,73,61,São José,2,2
+07/02/2010,Saldanha,65,90,Flamengo,2,2
+07/02/2010,Brasília,109,80,Paulistano,2,2
+07/02/2010,Assis,72,68,Araraquara,2,2
+07/02/2010,Minas,92,87,Pinheiros,2,2
+07/02/2010,Bauru,105,97,Franca,2,2
+09/02/2010,Franca,91,75,São José,10,1
+10/02/2010,Paulistano,68,79,Araraquara,12,1
+10/02/2010,São José,79,100,Pinheiros,8,1
+12/02/2010,São José,74,68,Assis,11,1
+12/02/2010,Paulistano,104,109,Franca,11,1
+17/02/2010,São José,90,74,Bauru,12,1
+26/02/2010,Paulistano,87,78,Espírito Santo,3,2
+26/02/2010,Franca,98,89,Brasília,3,2
+26/02/2010,Pinheiros,98,85,Saldanha,3,2
+26/02/2010,Assis,93,80,Bauru,3,2
+26/02/2010,Araraquara,98,92,Minas,3,2
+26/02/2010,São José,95,56,Londrina,3,2
+26/02/2010,Flamengo,100,87,Joinville,3,2
+28/02/2010,Franca,76,66,Minas,4,2
+28/02/2010,Flamengo,95,72,Londrina,4,2
+28/02/2010,Pinheiros,91,80,Espírito Santo,4,2
+28/02/2010,Paulistano,85,91,Saldanha,4,2
+28/02/2010,Araraquara,95,90,Brasília,4,2
+28/02/2010,São José,93,76,Joinville,4,2
+05/03/2010,Minas,82,76,Assis,5,2
+05/03/2010,Brasília,100,76,Bauru,5,2
+05/03/2010,Londrina,105,107,Pinheiros,5,2
+05/03/2010,Saldanha,62,95,Franca,5,2
+05/03/2010,Joinville,74,79,Paulistano,5,2
+05/03/2010,Espírito Santo,73,68,Araraquara,5,2
+07/03/2010,Espírito Santo,64,85,Franca,6,2
+07/03/2010,Saldanha,61,70,Araraquara,6,2
+07/03/2010,Joinville,63,75,Pinheiros,6,2
+07/03/2010,Londrina,75,64,Paulistano,6,2
+07/03/2010,Minas,114,113,Bauru,6,2
+07/03/2010,Brasília,101,62,Assis,6,2
+07/03/2010,Flamengo,101,89,São José,5,2
+12/03/2010,Brasília,77,96,Minas,7,2
+12/03/2010,Franca,81,73,Londrina,7,2
+12/03/2010,Bauru,94,72,Saldanha,7,2
+12/03/2010,Assis,89,75,Espírito Santo,7,2
+12/03/2010,Paulistano,95,90,São José,7,2
+12/03/2010,Araraquara,90,93,Joinville,7,2
+12/03/2010,Pinheiros,79,83,Flamengo,7,2
+14/03/2010,Franca,91,77,Joinville,8,2
+14/03/2010,Araraquara,81,74,Londrina,8,2
+14/03/2010,Assis,79,56,Saldanha,8,2
+14/03/2010,Pinheiros,70,71,São José,8,2
+14/03/2010,Bauru,80,72,Espírito Santo,8,2
+14/03/2010,Paulistano,77,86,Flamengo,8,2
+19/03/2010,Flamengo,78,70,Franca,9,2
+19/03/2010,Saldanha,72,81,Minas,9,2
+19/03/2010,São José,96,89,Araraquara,9,2
+19/03/2010,Paulistano,85,80,Pinheiros,9,2
+19/03/2010,Joinville,75,74,Assis,9,2
+19/03/2010,Espírito Santo,85,92,Brasília,9,2
+21/03/2010,Londrina,76,86,Assis,10,2
+21/03/2010,São José,83,77,Franca,10,2
+21/03/2010,Saldanha,76,75,Brasília,10,2
+21/03/2010,Joinville,65,61,Bauru,10,2
+21/03/2010,Espírito Santo,69,72,Minas,10,2
+21/03/2010,Flamengo,98,71,Araraquara,10,2
+23/03/2010,Londrina,74,87,Bauru,9,2
+26/03/2010,Brasília,106,81,Joinville,11,2
+26/03/2010,Araraquara,94,90,Pinheiros,11,2
+26/03/2010,Franca,88,85,Paulistano,11,2
+26/03/2010,Minas,101,80,Londrina,11,2
+26/03/2010,Saldanha,83,57,Espírito Santo,11,2
+26/03/2010,Bauru,108,105,Flamengo,11,2
+26/03/2010,Assis,84,89,São José,11,2
+28/03/2010,Assis,60,95,Flamengo,12,2
+28/03/2010,Bauru,104,79,São José,12,2
+28/03/2010,Franca,77,78,Pinheiros,12,2
+28/03/2010,Araraquara,106,110,Paulistano,12,2
+28/03/2010,Minas,87,88,Joinville,12,2
+28/03/2010,Brasília,91,76,Londrina,12,2
+02/04/2010,Araraquara,96,70,Franca,13,2
+02/04/2010,Flamengo,91,71,Minas,13,2
+02/04/2010,São José,72,84,Brasília,13,2
+02/04/2010,Joinville,63,71,Saldanha,13,2
+02/04/2010,Paulistano,95,86,Bauru,13,2
+02/04/2010,Londrina,81,73,Espírito Santo,13,2
+02/04/2010,Pinheiros,83,80,Assis,13,2
+04/04/2010,Pinheiros,96,87,Bauru,14,2
+04/04/2010,São José,85,74,Minas,14,2
+04/04/2010,Paulistano,81,87,Assis,14,2
+04/04/2010,Londrina,99,83,Saldanha,14,2
+04/04/2010,Joinville,73,65,Espírito Santo,14,2
+04/04/2010,Brasília,90,83,Flamengo,14,2
+07/04/2010,Espírito Santo,64,68,Joinville,0,3
+08/04/2010,Araraquara,82,78,São José,0,3
+08/04/2010,Assis,70,77,Bauru,0,3
+09/04/2010,Joinville,93,74,Espírito Santo,0,3
+09/04/2010,Paulistano,93,101,Pinheiros,0,3
+10/04/2010,Joinville,71,60,Espírito Santo,0,3
+11/04/2010,São José,88,74,Araraquara,0,3
+11/04/2010,Bauru,90,68,Assis,0,3
+12/04/2010,São José,71,67,Araraquara,0,3
+12/04/2010,Bauru,86,81,Assis,0,3
+12/04/2010,Pinheiros,94,92,Paulistano,0,3
+13/04/2010,Pinheiros,74,73,Paulistano,0,3
+16/04/2010,Araraquara,70,82,São José,0,3
+20/04/2010,Bauru,96,102,Brasília,0,4
+21/04/2010,Pinheiros,76,95,Franca,0,4
+21/04/2010,Joinville,72,76,Minas,0,4
+23/04/2010,Brasília,118,78,Bauru,0,4
+23/04/2010,Minas,87,77,Joinville,0,4
+23/04/2010,São José,71,78,Flamengo,0,4
+24/04/2010,Franca,84,75,Pinheiros,0,4
+24/04/2010,Minas,94,90,Joinville,0,4
+24/04/2010,Brasília,111,101,Bauru,0,4
+25/04/2010,Franca,73,71,Pinheiros,0,4
+25/04/2010,Flamengo,89,70,São José,0,4
+26/04/2010,Flamengo,95,91,São José,0,4
+04/05/2010,Minas,97,106,Brasília,0,5
+04/05/2010,Franca,90,82,Flamengo,0,5
+07/05/2010,Brasília,94,103,Minas,0,5
+07/05/2010,Flamengo,101,73,Franca,0,5
+08/05/2010,Brasília,102,86,Minas,0,5
+08/05/2010,Flamengo,80,73,Franca,0,5
+11/05/2010,Franca,85,86,Flamengo,0,5
+13/05/2010,Minas,78,70,Brasília,0,5
+15/05/2010,Brasília,90,77,Minas,0,5
+22/05/2010,Flamengo,88,84,Brasília,0,6
+28/05/2010,Brasília,93,90,Flamengo,0,6
+30/05/2010,Brasília,85,84,Flamengo,0,6
+03/06/2010,Flamengo,94,74,Brasília,0,6
+06/06/2010,Brasília,76,74,Flamengo,0,6
