@@ -1,4 +1,4 @@
-### Raspagem de dados Novo Basquete Brasil
+# Raspagem de dados Novo Basquete Brasil
 
 Nesse repositório está disponível os scripts utilizados para realizar a extração dos dados das partidas da NBB.
 Cada script tem um papel crucial para criação final do arquivo da database.
